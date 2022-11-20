@@ -135,9 +135,9 @@ End
 \paperfontsize 10
 \spacing single
 \use_hyperref true
-\pdf_title "Luminous: the Dream"
-\pdf_author "AuroraAmissa"
-\pdf_subject "A Storytelling game of Distant Dreams"
+\pdf_title "Starlit Skies"
+\pdf_author "Lymia Aluysia"
+\pdf_subject "A roleplaying system about magical girls at the end of the world."
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen true
@@ -243,45 +243,36 @@ name "chap:Foreword"
 \end_layout
 
 \begin_layout Standard
-
+This document is an early test version for 
 \series bold
-\shape italic
-\emph on
-Luminous: the Dream
+Starlit Skies
 \series default
-\shape default
-\emph default
- is a fanmade roleplaying game for the 
-\series bold
-Chronicles of Darkness
-\series default
-, inspired by the 
-\emph on
-mahou shoujo
-\emph default
- genre of anime and manga.
- Players take on the role of those caught between the waking world and the
- world of dreams.
- Wielding a faint power from their unison, they seek to bring a better future
- for both worlds and all within.
+, a roleplaying system about magical girls trying to make the best of the
+ end of the world.
+ The system is overall meant as a successor to the Magical Burst 3rd Draft
+ lineage of systems - one that was effectively abandoned by its original
+ author after they converted their system into a PBTA.
+ As such, it follows up on Fact's efforts to finish that branch of the system
+ in his Project Rebirth and Burst Rewrite systems.
 \end_layout
 
 \begin_layout Standard
-The 
-\series bold
-Chronicles of Darkness
-\series default
- book is needed to use this book.
- At the time of preparation, that book is available from 
-\begin_inset CommandInset href
-LatexCommand href
-name "DriveThru RPG"
-target "https://www.drivethrurpg.com/"
-literal "false"
+Input and suggestions for the game are very much appreciated! Please come
+ talk to us in the Discord server linked below!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Discord server.
+ :( sorry
+\end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -292,247 +283,95 @@ status open
 
 
 \backslash
-playtesttext {Luminous: the Dream}
+repotext {Starlit Skies}{AuroraAmissa/StarlitSkies}
 \end_layout
 
 \end_inset
 
- Source code for the system document can be found on 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-href{https://github.com/AuroraAmissa/LuminousTheDream/tree/
-\backslash
-gitHash}{Github}
-\end_layout
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Section*
 Credits
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
-\series bold
-\shape italic
 \emph on
-Luminous: the Dream
-\series default
-\shape default
+Lymia
 \emph default
- is primary written by AuroraAmissa, with help with several contributors.
- Without their help, this project would likely have not been possible.
-\end_layout
-
-\begin_layout Itemize
-Suzune, who helped immensely with the core ideas behind Luminous' mechanics
- and core lore.
-\end_layout
-
-\begin_layout Itemize
-Ellie, who has provided me a great deal of support through the earlier parts
- of the project, and provided very valuable feedback throughout.
-\end_layout
-
-\begin_layout Itemize
-Hanako, who taught me the ways of the dark magical girl.
- :)
-\end_layout
-
-\begin_layout Itemize
-Xelsius, who has been a consistent source of feedback and encouragement
- throughout the project.
-\end_layout
-
-\begin_layout Itemize
-MushroomBadger whose work on Beloved showed many alternative ways of how
- something like what I am doing could be done.
-\end_layout
-
-\begin_layout Itemize
-TrueMrMultiverse, WillOfTheWinds, and all the others who helped immensely
- with their feedback and suggestions for Archetypes and similar details.
-\end_layout
-
-\begin_layout Standard
-Beyond those who worked with me directly, Luminous has been inspired by
- many other works that came before.
+, the main designer and author of this system.
 \end_layout
 
 \begin_layout Itemize
 
-\series bold
-\shape italic
 \emph on
-Luminous: the Dream
-\series default
-\shape default
+Suzune
 \emph default
- started as a rewrite of 
-\series bold
-\shape italic
+, for her amazing help in designing the out-of-combat mechanics and inspiring
+ me through the homebrew work she did in her own campaigns.
+\end_layout
+
+\begin_layout Itemize
+
 \emph on
-Princess: the Hopeful
-\series default
-\shape default
+Tiamat Cordia
 \emph default
- before it diverged greatly later on in development.
- Even if few traces of it remain in Luminous, Princess still paved the way
- for fanworks like this and inspired this project.
+, for their work in helping review the new Combat Ability trees for balance
+ and clarity and generally helping with proofreading and systems design.
 \end_layout
 
 \begin_layout Itemize
-Over time, 
-\series bold
-\shape italic
+
 \emph on
-Changeling: the Dreaming
-\series default
-\shape default
+Fact
 \emph default
- became more and more of an inspiration for me, as I tried connecting the
- themes of dreams, activism and magical girl anime.
- Luminous very much began becoming a spiritual successor to it over time.
-\end_layout
-
-\begin_layout Itemize
-The 
-\series bold
-Exalted 2e
-\series default
- sourcebook, 
-\series bold
-Graceful Wicked Masques
-\series default
-, despite its very different theme, was an ample source of inspiration as
- to how to present the Astral/Dream in a way befitting its nature.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\shape italic
+, for laying the underlying groundwork for much of the revised combat in
+ this system in his own 
 \emph on
-Chronicles of Darkness
-\series default
+Burst Rewrite
 \emph default
- 
-\shape default
-and all its splats shine as a bright example as to what tabletop can be.
- There is much to learn from their authors and their works for most game
- designers, and how they improved on its earlier editions.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-A Wind in the Door
-\series default
-, the novel that first taught me so long ago what it meant to dream and
- 
+ and 
 \emph on
-hope
+Project Rebirth
 \emph default
 .
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex ContentWarning
-status open
-
-\begin_layout Section*
-Content Warning
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Luminous: the Dream
-\series default
- tells stories of the line between the escapism of dreams and the cruelties
- of reality.
- This book discusses subject matters such as poverty, sexism, racism, and
- all kinds of the mundane and small cruelties that are too often overlooked.
- Beyond that, its supernatural elements involve themes of irreality, blurred
- boundaries between people, and rejection of reality.
-\end_layout
-
-\begin_layout Plain Layout
-If you are sensitive to such content, please take care when reading or playing
- 
-\series bold
-Luminous
-\series default
+\begin_layout Itemize
+Everyone else who contributed to 
+\emph on
+Project Rebirth
+\emph default
+, 
+\emph on
+Burst Rewrite
+\emph default
+ and 
+\emph on
+Magical Burst 3rd Draft
+\emph default
 .
- Safety techniques for such things are discussed in [TODO: Chapter link].
+ Those systems are the direct lineage of Starlit Skies, and it would not
+ exist without the work put into them.
 \end_layout
 
-\end_inset
-
-
+\begin_layout Itemize
+The authors of 
+\emph on
+Blades in the Dark
+\emph default
+ and 
+\emph on
+Valor: the Heroic Roleplaying System
+\emph default
+.
+ They were the major inspirations for the overall structure of Starlit Skies,
+ and the non-combat mechanics added in it.
 \end_layout
 
 \begin_layout Section*
 Legal Stuff
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\shape italic
-\emph on
-Luminous: the Dream
-\series default
-\shape default
-\emph default
- was originally inspired by the Vocations version of 
-\series bold
-\shape italic
-\emph on
-Princess: the Hopeful
-\series default
-\shape default
-\emph default
-.
- That version of 
-\series bold
-\shape italic
-\emph on
-Princess: the Hopeful
-\series default
-\shape default
-\emph default
- was a collaborative effort of many posters who contributed to its development
- on the RPGnet forums, including Cruton, Azunth, Michael Brazier, EarthScorpion,
- Luc "Nickname" French, hazard151, Huitzil, Leliel, Kearin, TheKingsRaven,
- Naomi Li, MagicSwordsman, Martin Padilla, SaulotTheGentle, and Jordy Vanderstuk
-ken.
- It is available under the CC Attribution-ShareAlike 3.0 Unported License.
- It can be downloaded from its 
-\begin_inset CommandInset href
-LatexCommand href
-name "homepage"
-target "https://sites.google.com/site/princessthehopeful/home"
-literal "false"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -565,31 +404,22 @@ literal "false"
  It uses the 
 \begin_inset CommandInset href
 LatexCommand href
-name "Dancing Script"
-target "https://github.com/impallari/DancingScript"
-literal "false"
-
-\end_inset
-
- font by Pablo Impallari, 
-\begin_inset CommandInset href
-LatexCommand href
 name "Fira Sans"
 target "https://github.com/mozilla/Fira"
 literal "false"
 
 \end_inset
 
- by Carrois Apostrophe, and 
+ font by Carrois Apostrophe, and the 
 \begin_inset CommandInset href
 LatexCommand href
-name "DejaVu Sans Mono"
-target "https://dejavu-fonts.github.io/"
+name "Quicksand"
+target "https://github.com/andrew-paglinawan/QuicksandFamily"
 literal "false"
 
 \end_inset
 
- by various contributors.
+ by Andrew Paglinawan.
 \end_layout
 
 \begin_layout Standard
