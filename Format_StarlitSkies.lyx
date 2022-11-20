@@ -233,7 +233,7 @@ definesection{forward}%
 
 \begin_layout Plain Layout
 
-	{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}%
+	{F5EBFF}{E9E0FF}{B9B0F5}{7F6DF2}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -250,7 +250,7 @@ definesection{starlit}%
 
 \begin_layout Plain Layout
 
-	{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}%
+	{F5EBFF}{E9E0FF}{B9B0F5}{7F6DF2}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -258,6 +258,28 @@ definesection{starlit}%
 
 \backslash
 setsection{forward}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+labelitemi}{$
+\backslash
+texttt{
+\backslash
+textbf{✧}}$}
 \end_layout
 
 \end_inset
