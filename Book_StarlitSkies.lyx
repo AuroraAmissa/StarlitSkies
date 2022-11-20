@@ -132,8 +132,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
-\paperfontsize 10
-\spacing single
+\paperfontsize 12
+\spacing other 1.15
 \use_hyperref true
 \pdf_title "Starlit Skies"
 \pdf_author "Lymia Aluysia"
@@ -181,7 +181,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip medskip
+\defskip 8pt
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -291,81 +291,46 @@ repotext {Starlit Skies}{AuroraAmissa/StarlitSkies}
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 Credits
 \end_layout
 
 \begin_layout Itemize
-
-\emph on
-Lymia
-\emph default
-, the main designer and author of this system.
+Lymia, the main designer and author of this system.
 \end_layout
 
 \begin_layout Itemize
-
-\emph on
-Suzune
-\emph default
-, for her amazing help in designing the out-of-combat mechanics and inspiring
- me through the homebrew work she did in her own campaigns.
+Suzune, for her amazing help in designing the out-of-combat mechanics and
+ inspiring me through the homebrew work she did in her own campaigns.
 \end_layout
 
 \begin_layout Itemize
-
-\emph on
-Tiamat Cordia
-\emph default
-, for their work in helping review the new Combat Ability trees for balance
- and clarity and generally helping with proofreading and systems design.
+Tiamat Cordia, for their work in helping review the new Combat Ability trees
+ for balance and clarity and generally helping with proofreading and systems
+ design.
 \end_layout
 
 \begin_layout Itemize
-
-\emph on
-Fact
-\emph default
-, for laying the underlying groundwork for much of the revised combat in
- this system in his own 
-\emph on
-Burst Rewrite
-\emph default
- and 
-\emph on
-Project Rebirth
-\emph default
-.
+Fact, for laying the underlying groundwork for much of the revised combat
+ in this system in his own Burst Rewrite and Project Rebirth.
 \end_layout
 
 \begin_layout Itemize
-Everyone else who contributed to 
-\emph on
-Project Rebirth
-\emph default
-, 
-\emph on
-Burst Rewrite
-\emph default
- and 
-\emph on
-Magical Burst 3rd Draft
-\emph default
-.
+Everyone else who contributed to Project Rebirth, Burst Rewrite and Magical
+ Burst 3rd Draft.
  Those systems are the direct lineage of Starlit Skies, and it would not
  exist without the work put into them.
 \end_layout
 
 \begin_layout Itemize
-The authors of 
-\emph on
-Blades in the Dark
-\emph default
- and 
-\emph on
-Valor: the Heroic Roleplaying System
-\emph default
-.
+The authors of Blades in the Dark and Valor: the Heroic Roleplaying System.
  They were the major inspirations for the overall structure of Starlit Skies,
  and the non-combat mechanics added in it.
 \end_layout
@@ -404,13 +369,13 @@ literal "false"
  It uses the 
 \begin_inset CommandInset href
 LatexCommand href
-name "Fira Sans"
-target "https://github.com/mozilla/Fira"
+name "Signika Negative"
+target "https://fonts.google.com/specimen/Signika+Negative"
 literal "false"
 
 \end_inset
 
- font by Carrois Apostrophe, and the 
+ font by Anna Giedryś, the 
 \begin_inset CommandInset href
 LatexCommand href
 name "Quicksand"
@@ -419,12 +384,28 @@ literal "false"
 
 \end_inset
 
- by Andrew Paglinawan.
+ font by Andrew Paglinawan, and the 
+\begin_inset CommandInset href
+LatexCommand href
+name "DejaVu Sans Mono"
+target "https://dejavu-fonts.github.io/"
+literal "false"
+
+\end_inset
+
+ font by various contributors.
 \end_layout
 
 \begin_layout Standard
 The mention of or reference to any company or product in these pages is
  not a challenge to the trademark or copyright concerned.
+\end_layout
+
+\begin_layout Standard
+This work uses the supernatural for settings, characters and themes.
+ All mystical and supernatural elements are fiction and intended for entertainme
+nt purposes only.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -502,6 +483,30 @@ While this game has primarily been playtested in online text-based games,
  dice.
  Though this system does not require it to be played, a calculator could
  still speed up running the game.
+\end_layout
+
+\begin_layout Section
+Shattered Stars
+\end_layout
+
+\begin_layout Standard
+Earth was once a far grander world, full of tens of billions of people –
+ all living ten billion different lives, dreaming of as many different things.
+ It seemed we would make it through it all okay, despite all the troubles
+ of the era.
+ That, in the far future, we could make the Utopia we all dreamed of.
+\end_layout
+
+\begin_layout Subsection
+New Earth
+\end_layout
+
+\begin_layout Subsection
+The Sea of Fragments
+\end_layout
+
+\begin_layout Section
+Heroes of the Stars
 \end_layout
 
 \begin_layout Standard
