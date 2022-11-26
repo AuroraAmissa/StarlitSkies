@@ -183,7 +183,7 @@ status open
 
 \backslash
 geometry{verbose,letterpaper,tmargin=1.1in,bmargin=1.1in,lmargin=0.85in,rmargin=0.85
-in,footskip=0.845in}
+in,footskip=0.9in}
 \end_layout
 
 \begin_layout Plain Layout
@@ -306,7 +306,7 @@ status open
 
 \begin_layout Plain Layout
 
-% Starlit Skies layout
+% Starlit Skies basic layout
 \end_layout
 
 \begin_layout Plain Layout
@@ -397,7 +397,62 @@ fontsize{8.5}{0}}
 
 
 \backslash
+renewcommand
+\backslash
+gitmarkheight{0.2in}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 firmlists*
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Starlit Skies chapter headings
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+printchaptertitle}[1]{
+\backslash
+chaptitlefont{
+\backslash
+texttt{
+\backslash
+textbf{✧}} #1 
+\backslash
+texttt{
+\backslash
+textbf{✧}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+printtoctitle}[1]{}
 \end_layout
 
 \end_inset

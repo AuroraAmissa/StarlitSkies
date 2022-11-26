@@ -292,6 +292,33 @@ repotext {Starlit Skies}{AuroraAmissa/StarlitSkies}
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Improve the layout to better thematically match Starlit Skies.
+ Is currently somewhat temporary.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Typographhhy.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -312,21 +339,10 @@ Suzune, for her amazing help in designing the out-of-combat mechanics and
 \end_layout
 
 \begin_layout Itemize
-Tiamat Cordia, for their work in helping review the new Combat Ability trees
- for balance and clarity and generally helping with proofreading and systems
- design.
-\end_layout
-
-\begin_layout Itemize
-Fact, for laying the underlying groundwork for much of the revised combat
- in this system in his own Burst Rewrite and Project Rebirth.
-\end_layout
-
-\begin_layout Itemize
-Everyone else who contributed to Project Rebirth, Burst Rewrite and Magical
- Burst 3rd Draft.
- Those systems are the direct lineage of Starlit Skies, and it would not
- exist without the work put into them.
+Fact and everyone else who contributed to Project Rebirth, Burst Rewrite
+ and Magical Burst 3rd Draft.
+ Those systems served as the basic inspiration for Starlit Skies, and continue
+ to be its lineage.
 \end_layout
 
 \begin_layout Itemize
@@ -416,8 +432,15 @@ nt purposes only.
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lumcustomtoc
+\end_layout
 
 \end_inset
 
@@ -441,39 +464,27 @@ Welcome to
 Starlit Skies
 \series default
 , a roleplaying game for two to four players.
- In this game, you play a Starlit, one of those shining heroes born of the
- end of the world - who fight against the forces of darkness and decay that
- still threaten the world.
- Those who always hold in their hearts the one thing that humanity will
- always have; hope.
- In other words: Magical Girls.
+ In this game, you play a Starlit, a shining hero born of the end of the
+ world - and now fights to sustain what remains and keep alive the one thing
+ humanity will always have; their hopes and dreams.
+ In other words; a magical girl.
 \end_layout
 
 \begin_layout Standard
-As a system, it is designed for higher-powered campaigns where even though
- combat may sometimes be necessary, it can often be avoided or otherwise
- skipped, where as much focus is paid to the mundane and solving problems
- with magic as fighting against villains and more esoteric forces of darkness.
-\end_layout
-
-\begin_layout Standard
-While this rulebook presents a specific setting, the system itself is designed
+This system is designed to tell stories like those of the magical girl genre,
+ and for higher-powered campaigns where combat can be avoided through diplomacy
+ or heart-felt appeals – as often as it is inevitable as part of a magical
+ girl's duties.
+ While this rulebook presents a specific setting, the system itself is designed
  to be usable (with modifications) for most of the magical girl genre.
- The system should also still be usable for other genres with similar themes
- or worldbuilding - such as superheroes or the likes of 
-\emph on
-Genshin Impact
-\emph default
-, 
-\emph on
-Magic the Gathering
-\emph default
- and similar.
- The rules found in the Variant Rules section may be helpful to make the
- system match your setting better.
- That section should not be taken as an exhaustive list of changes you could
- make to the system, and this system has been built to try and make it easier
- to add new variant rules for your specific setting.
+\end_layout
+
+\begin_layout Standard
+The system should also still be usable for other genres with similar themes
+ or worldbuilding - such as superheroes or the likes of Genshin Impact,
+ Magic the Gathering and similar.
+ The rules suggested in the Variant Rules section may be helpful to make
+ the system match your setting better.
 \end_layout
 
 \begin_layout Standard
@@ -485,28 +496,318 @@ While this game has primarily been playtested in online text-based games,
  still speed up running the game.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Tale of the Night Sky
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Starlit Skies
+\series default
+ takes place after the end of the world – not one full of desolate wastelands
+ and inevitable decay, but one full of bright dreams dulled by overwhelming
+ sorrows.
+ After all, for all the magic and wonder that came with it, the world still
+ ended.
+\end_layout
+
+\begin_layout Standard
+This chapter tells the story of how the world of 
+\series bold
+Starlit Skies
+\series default
+ came to be, and what it is like today.
+\end_layout
+
 \begin_layout Section
 Shattered Stars
 \end_layout
 
 \begin_layout Standard
 Earth was once a far grander world, full of tens of billions of people –
- all living ten billion different lives, dreaming of as many different things.
+ all living their own lives and dreaming of different things.
  It seemed we would make it through it all okay, despite all the troubles
  of the era.
  That, in the far future, we could make the Utopia we all dreamed of.
+ So we thought...
+\end_layout
+
+\begin_layout Standard
+Fate was not so kind.
+ One day, the world simply vanished.
+ Perhaps God truly was dying in the wake of an era where belief was fading
+ away, perhaps we were caught in the ashes of an unseen war in the heavens.
+ Nobody truly knows.
+\end_layout
+
+\begin_layout Standard
+In the last moments of the world, the stars burned away, the land cracked
+ and disappeared, the sky fell into pieces.
+ We found no gods, no proper ending, no answers beyond the skies – just
+ the pure light the world itself were once made of.
 \end_layout
 
 \begin_layout Subsection
-New Earth
+The First Star
+\end_layout
+
+\begin_layout Standard
+In a world outside time and space, humanity fell into a long shared dream.
+ Even if we held all the Light of creation in our hands, we were not meant
+ for such a world.
+ Even for those who didn't chose to forget...
+ their time in the First Star was still but a faint memory.
+\end_layout
+
+\begin_layout Standard
+Humanity were caught in a crossroads.
+ All our grandest dreams could come true in the world we created – but which
+ ones? We could choose to live the lives we always wanted to – but what
+ about everybody else in our lives? Or perhaps we could forget it ever happened,
+ undo the end of the world with the power we had.
+\end_layout
+
+\begin_layout Standard
+In the Light of the First Star, so many ideals and dreams clashed, with
+ no clear winner.
+ Towards the end of that dream, we came to simply create the worlds we wished
+ for without regard, fragmenting its Light into countless Fragments.
+\end_layout
+
+\begin_layout Standard
+Those decisions sealed our fate.
+ We gave up on the ideal situation, and all each of us were left to do was
+ to find a world that best suited us, for better or worse...
 \end_layout
 
 \begin_layout Subsection
 The Sea of Fragments
 \end_layout
 
+\begin_layout Standard
+Countless worlds were born from the First Star, each with its own laws of
+ reality and peoples and landscapes.
+ Some, we created from the stories we loved in our childhood or the myths
+ of long-gone eras.
+ Others, from pure imagination and ideas of what a more bright world could
+ be like.
+\end_layout
+
+\begin_layout Standard
+As the First Star dimmed, its light scattered across the Sea of Fragments...
+ the people within were left to choose – between the worlds they dreamed
+ of, the lives they wanted to live, between the people they wanted to stay
+ with forever.
+\end_layout
+
+\begin_layout Standard
+Often, there was no perfect answer – it seemed; not even to not choose.
+\end_layout
+
+\begin_layout Standard
+Even if they only remembered the First Star as a vague dream, the people
+ of each Fragment knew in their hearts the choices they were forced to make,
+ and still longed for those people they missed.
+ To them, it seemed all there was to do was live on, and let the past go.
+\end_layout
+
+\begin_layout Subsection
+New Earth
+\end_layout
+
+\begin_layout Standard
+Of all the Fragments, one stands out in particular as special – New Earth,
+ a world created by those who did not want anything to change at all.
+ It is the brightest of all the Fragments, containing half the people of
+ the Old Earth, all living ordinary lives with all the joys and sorrows
+ that brings.
+\end_layout
+
+\begin_layout Standard
+The laws woven into New Earth to uphold it were harsh.
+ It asks that all those who live within it forget the First Star, and all
+ that was lost during the end – even the people closest to them, that left
+ for the Sea of Fragments.
+ Even if they were not allowed to remember, the pain remains, lingering
+ in the depths of their dreams.
+\end_layout
+
+\begin_layout Standard
+The people of New Earth are far more scared than before.
+ Even if life goes on – it was ever so slightly less colorful.
+ So many of those who dreamed of brighter did not want to return to mundanity
+ – so many more decided to stay, but found their dreams dimmed by the pain
+ of what they were asked to forget.
+\end_layout
+
 \begin_layout Section
-Heroes of the Stars
+The Starlit
+\end_layout
+
+\begin_layout Standard
+We were rash, even as we held the power of gods in our hands.
+ New Earth was created from a shared subconscious wish, locking away the
+ majority of the First Star's Light before anyone truly began to understand.
+\end_layout
+
+\begin_layout Standard
+In fear that all the Light would soon be faded, those who dreamed of fantasies
+ and utopias created their Fragments soon after.
+ In time, the remaining souls of humanity moved on, choosing one Fragment
+ or another, leaving behind the First Star.
+\end_layout
+
+\begin_layout Standard
+But...
+ some remained.
+ There were those too torn between those they loved and their own dreams.
+\end_layout
+
+\begin_layout Standard
+Their decision was different.
+ They found a new answer, one that came all too late for the rest of humanity.
+ Rather than weaving it into a world, they took the light of the First Star
+ into themselves.
+\end_layout
+
+\begin_layout Subsection
+The Nature of Light
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Nature of the Starlit, what it means to be Fragments in themselves.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wings and Chains
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: How the Starlit came to be trapped on New Earth, and how that was
+ a blessing in disguise.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Shadows and Horrors
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: The sorrow of the stars, the horrors born of Light tainted by negative
+ emotion.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+A Moment, Frozen in Time
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: The present state of the Sea of Fragments, how the worlds drift away
+ in what seems a slow decay to the Starlit.
+ Their struggle against what seems inevitable - but isn't.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Starlit Astronomía
+\end_layout
+
+\begin_layout Section
+How to Roleplay
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: insert generic 
+\begin_inset Quotes xld
+\end_inset
+
+what is roleplaying
+\begin_inset Quotes xrd
+\end_inset
+
+ chapter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Character Creation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Actual Work
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
