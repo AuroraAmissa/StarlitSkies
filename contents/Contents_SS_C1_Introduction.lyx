@@ -1,0 +1,385 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\use_default_options true
+\begin_modules
+enumitem
+todonotes
+fixltx2e
+InStar
+pdfform
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+
+InsetLayout Flex:IgnoreThis
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Do not Render"
+  LatexType             command
+  LatexName             ignorethis
+  ResetsFont            true
+End
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             environment
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	    1
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:ContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Content Warning"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns"
+  LatexType             environment
+  LatexName             twocolumnbox
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBoxFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns Fill"
+  LatexType             environment
+  LatexName             twocolumnboxfill
+  ResetsFont            true
+End
+
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	    1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+End
+
+InsetLayout Flex:LumPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumChapQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumIncomplete
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	    1
+  EndArgument
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 12
+\spacing other 1.15
+\use_hyperref true
+\pdf_title "Starlit Skies"
+\pdf_author "Lymia Aluysia"
+\pdf_subject "A roleplaying system about magical girls at the end of the world."
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\footskip 0.5in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip 8pt
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 1
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_StarlitSkies.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{starlit}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Standard
+Welcome to 
+\series bold
+Starlit Skies
+\series default
+, a roleplaying game for three to five people – two to four players and
+ one person who serves as the game's Host.
+ In this game, you play a Starlit, a shining hero born of the end of the
+ world - and now fights to sustain what remains and keep alive the one thing
+ humanity will always have; their hopes and dreams.
+ In other words; a magical girl.
+\end_layout
+
+\begin_layout Standard
+This system is designed to tell stories like those of the magical girl genre,
+ and for higher-powered campaigns where combat can be avoided through diplomacy
+ or heart-felt appeals – and yet, just as often, cosmic forces conspire
+ such that there is no choice but to fight.
+\end_layout
+
+\begin_layout Standard
+This book presents a specific setting, but the rules in it can be used for
+ most of the magical girl genre with only slight changes.
+ You may want to check the Variant Rules section for optional rules that
+ may make this system match your setting better.
+ For stories in different genres, the archive containing this document contains
+ a separate conversion guide that has advice and tips for changing the rules
+ of Starlit Skies to suit a broad range of genres.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: The conversion guide does not exist yet.
+ Write it eventually.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When playing this game in person, all that is needed is pen and paper, and
+ five ordinary six-sided dice for each player including the Host.
+ While optional, it would be very useful to keep a printout of this document
+ on hand (or a computer/tablet you can easily access it with) and a printout
+ of the character sheet for each player.
+\end_layout
+
+\begin_layout Standard
+For online play, each player should have a copy of this document and a means
+ to share character sheets and information with each other, such as Google
+ Docs or Microsoft 365.
+ In addition, you will need a means to roll dice – whether that is physical
+ dice for each player, or a dice roller program or bot.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+What Roleplaying Means
+\end_layout
+
+\begin_layout Standard
+The word 
+\begin_inset Quotes xld
+\end_inset
+
+roleplaying
+\begin_inset Quotes xrd
+\end_inset
+
+ means many different things to different people – and every roleplaying
+ game has its own idea.
+ For some it's like playing a game, and for others, like writing a story
+ together.
+\end_layout
+
+\begin_layout Standard
+Starlit Skies calls back to how we played pretend as little kids, and how
+ imagination and fantasy were natural to us.
+ It's a childish thing, of course, that we were supposed to put behind us
+ as we grew.
+ Most did as they were told – they refined that pretend into adult arts
+ like theater, or improvisation.
+ Others, stopped caring for fantasy, accepting that the banal was all that
+ mattered.
+\end_layout
+
+\begin_layout Standard
+This is a game for those of us who didn't know better.
+ In the IRC channels and Discord servers and fangirl forums of our past,
+ we continued doing as we always did as kids – without caring what the adults
+ thought.
+ For us, roleplay and play pretend are the same thing.
+ We became the characters we imagined – princesses, knights at first, and
+ then the heroes of our favorite shows.
+\end_layout
+
+\begin_layout Standard
+We did it because pretending together was fun, not for the story or anything
+ so virtuous.
+ Pretend feels more real, after all, when others can decide to do things
+ you could never have imagined yourself.
+ The situations we imagined grew ever more complex – but the shape never
+ changed.
+\end_layout
+
+\begin_layout Standard
+In time, we learned to pretend better.
+ We learned that telling people how their character would feel and what
+ would happen to them was bad.
+ We called that 
+\begin_inset Quotes xld
+\end_inset
+
+godmodding
+\begin_inset Quotes xrd
+\end_inset
+
+ and made rules against it.
+ Sometimes, we added simple dice rolls, for when people wished to leave
+ a conflict to chance – or decide what happens when two players just couldn't
+ agree what happened.
+\end_layout
+
+\begin_layout Standard
+Sometimes, those rules grew to be more complete – becoming something that
+ looks like tabletop of the sorts of Dungeons & Dragons or Apocalypse World,
+ but was certainly not.
+\end_layout
+
+\begin_layout Standard
+It became a forgotten branch of tabletop design of its own, one few designers
+ felt was worthy to be passed on.
+ In writing Starlit Skies, I hope to pass on that torch – to continue that
+ branch of roleplaying where we dream together.
+\end_layout
+
+\end_body
+\end_document

@@ -104,11 +104,17 @@ InsetLayout Flex:LumChapQuote
   ResetsFont            true
 End
 
-InsetLayout Flex:Foldable          # Define a new "flex" inset called "Foldable"
-  LyxType         custom           # Add to Insert > Custom Insets
-  LatexType       none             # Export contents to latex as-is, ignoring the wrapper.
-  Decoration      minimalistic     # Do not show a label, only the outer box, when not folded.
-  ContentAsLabel  true             # When folded show truncated contents as label.
+InsetLayout Flex:LumIncomplete
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	    1
+  EndArgument
 End
 \end_local_layout
 \language english
@@ -216,288 +222,9 @@ status open
 
 
 \backslash
-lumcustomtitle{Starlit Skies}{}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
 setsection{starlit}
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter
-Foreword 
-\begin_inset CommandInset label
-LatexCommand label
-name "chap:Foreword"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-This document is an early test version for 
-\series bold
-Starlit Skies
-\series default
-, a roleplaying system about magical girls trying to make the best of the
- end of the world.
- The system is overall meant as a successor to the Magical Burst 3rd Draft
- lineage of systems - one that was effectively abandoned by its original
- author after they converted their system into a PBTA.
- As such, it follows up on Fact's efforts to finish that branch of the system
- in his Project Rebirth and Burst Rewrite systems.
-\end_layout
-
-\begin_layout Standard
-Input and suggestions for the game are very much appreciated! Please come
- talk to us in the Discord server linked below!
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Discord server.
- :( sorry
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-repotext {Starlit Skies}{AuroraAmissa/StarlitSkies}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Improve the layout to better thematically match Starlit Skies.
- Is currently somewhat temporary.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Typographhhy.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-Credits
-\end_layout
-
-\begin_layout Itemize
-Lymia, the main designer and author of this system.
-\end_layout
-
-\begin_layout Itemize
-Suzune, for her amazing help in designing the out-of-combat mechanics and
- inspiring me through the homebrew work she did in her own campaigns.
-\end_layout
-
-\begin_layout Itemize
-Fact and everyone else who contributed to Project Rebirth, Burst Rewrite
- and Magical Burst 3rd Draft.
- Those systems served as the basic inspiration for Starlit Skies, and continue
- to be its lineage.
-\end_layout
-
-\begin_layout Itemize
-The authors of Blades in the Dark and Valor: the Heroic Roleplaying System.
- They were the major inspirations for the overall structure of Starlit Skies,
- and the non-combat mechanics added in it.
-\end_layout
-
-\begin_layout Section*
-Legal Stuff
-\end_layout
-
-\begin_layout Standard
-This work is licensed under the Creative Commons Attribution-ShareAlike
- 4.0 Unported License.
- To view a copy of this license, visit 
-\begin_inset CommandInset href
-LatexCommand href
-name "their website"
-target "http://creativecommons.org/licenses/by-sa/4.0/"
-literal "false"
-
-\end_inset
-
- or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain
- View, California, 94041, USA.
-\end_layout
-
-\begin_layout Standard
-This work uses fonts licensed under the 
-\begin_inset CommandInset href
-LatexCommand href
-name "SIL Open Font License, Version 1.1"
-target "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
-literal "false"
-
-\end_inset
-
-.
- It uses the 
-\begin_inset CommandInset href
-LatexCommand href
-name "Signika Negative"
-target "https://fonts.google.com/specimen/Signika+Negative"
-literal "false"
-
-\end_inset
-
- font by Anna Giedryś, the 
-\begin_inset CommandInset href
-LatexCommand href
-name "Quicksand"
-target "https://github.com/andrew-paglinawan/QuicksandFamily"
-literal "false"
-
-\end_inset
-
- font by Andrew Paglinawan, and the 
-\begin_inset CommandInset href
-LatexCommand href
-name "DejaVu Sans Mono"
-target "https://dejavu-fonts.github.io/"
-literal "false"
-
-\end_inset
-
- font by various contributors.
-\end_layout
-
-\begin_layout Standard
-The mention of or reference to any company or product in these pages is
- not a challenge to the trademark or copyright concerned.
-\end_layout
-
-\begin_layout Standard
-This work uses the supernatural for settings, characters and themes.
- All mystical and supernatural elements are fiction and intended for entertainme
-nt purposes only.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-lumcustomtoc
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter
-Introduction
-\end_layout
-
-\begin_layout Standard
-Welcome to 
-\series bold
-Starlit Skies
-\series default
-, a roleplaying game for two to four players.
- In this game, you play a Starlit, a shining hero born of the end of the
- world - and now fights to sustain what remains and keep alive the one thing
- humanity will always have; their hopes and dreams.
- In other words; a magical girl.
-\end_layout
-
-\begin_layout Standard
-This system is designed to tell stories like those of the magical girl genre,
- and for higher-powered campaigns where combat can be avoided through diplomacy
- or heart-felt appeals – as often as it is inevitable as part of a magical
- girl's duties.
- While this rulebook presents a specific setting, the system itself is designed
- to be usable (with modifications) for most of the magical girl genre.
-\end_layout
-
-\begin_layout Standard
-The system should also still be usable for other genres with similar themes
- or worldbuilding - such as superheroes or the likes of Genshin Impact,
- Magic the Gathering and similar.
- The rules suggested in the Variant Rules section may be helpful to make
- the system match your setting better.
-\end_layout
-
-\begin_layout Standard
-While this game has primarily been playtested in online text-based games,
- it should be easily playable in person or over voice as well.
- All that is needed is pen and paper, and a fair number of ordinary six-sided
- dice.
- Though this system does not require it to be played, a calculator could
- still speed up running the game.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
 \end_inset
 
 
@@ -520,11 +247,8 @@ Starlit Skies
 \end_layout
 
 \begin_layout Standard
-This chapter tells the story of how the world of 
-\series bold
-Starlit Skies
-\series default
- came to be, and what it is like today.
+This chapter tells the story of how the world of Starlit Skies came to be,
+ and what it is like today.
 \end_layout
 
 \begin_layout Section
@@ -743,82 +467,6 @@ status open
 TODO: The present state of the Sea of Fragments, how the worlds drift away
  in what seems a slow decay to the Starlit.
  Their struggle against what seems inevitable - but isn't.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter
-Starlit Astronomía
-\end_layout
-
-\begin_layout Section
-How to Roleplay
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: insert generic 
-\begin_inset Quotes xld
-\end_inset
-
-what is roleplaying
-\begin_inset Quotes xrd
-\end_inset
-
- chapter
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Character Creation
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Actual Work
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-lumcustomfooter
 \end_layout
 
 \end_inset

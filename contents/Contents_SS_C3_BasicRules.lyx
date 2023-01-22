@@ -1,0 +1,398 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\use_default_options true
+\begin_modules
+enumitem
+todonotes
+fixltx2e
+InStar
+pdfform
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+
+InsetLayout Flex:IgnoreThis
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Do not Render"
+  LatexType             command
+  LatexName             ignorethis
+  ResetsFont            true
+End
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             environment
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	    1
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:ContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Content Warning"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns"
+  LatexType             environment
+  LatexName             twocolumnbox
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBoxFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns Fill"
+  LatexType             environment
+  LatexName             twocolumnboxfill
+  ResetsFont            true
+End
+
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	    1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+End
+
+InsetLayout Flex:LumPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumChapQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumIncomplete
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	    1
+  EndArgument
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 12
+\spacing other 1.15
+\use_hyperref true
+\pdf_title "Starlit Skies"
+\pdf_author "Lymia Aluysia"
+\pdf_subject "A roleplaying system about magical girls at the end of the world."
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\footskip 0.5in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip 8pt
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 1
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_StarlitSkies.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{starlit}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Basic Rules
+\end_layout
+
+\begin_layout Standard
+This chapters explains the core rules of Starlit Skies, and the basics of
+ how to play the game.
+\end_layout
+
+\begin_layout Section
+Getting Started
+\end_layout
+
+\begin_layout Standard
+Starlit Skies is played in many sessions, 
+\end_layout
+
+\begin_layout Standard
+Starlit Skies is usually played in multipl
+\end_layout
+
+\begin_layout Standard
+Starlit Skies is usually played in multiple 
+\begin_inset Quotes xld
+\end_inset
+
+sessions
+\begin_inset Quotes xrd
+\end_inset
+
+ lasting around a couple hours.
+\end_layout
+
+\begin_layout Standard
+Starlit Skies is meant to be played in many sessions that make up a single
+ campaign.
+\end_layout
+
+\begin_layout Standard
+In Starlit Skies, one of the players serves as a Host who plays the world
+ and provides the challenges for the players to overcome.
+ They help decide when a character's actions are too difficult to succeed
+ without risk or just don't make sense in context of the story.
+ You should decide which of the players will be the Host before the game
+ starts.
+\end_layout
+
+\begin_layout Standard
+The other players play the roles of specific characters who serves as their
+ avatars into the shared world of the campaign.
+\end_layout
+
+\begin_layout Standard
+As the game is meant to be played in an extended campaign that lasts multiple
+ sessions, you should have a schedule or some other way to make sure everybody
+ can get together regularly to continue their campaign.
+\end_layout
+
+\begin_layout Section
+Roleplaying
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: insert not-very-generic 
+\begin_inset Quotes xld
+\end_inset
+
+what is roleplaying
+\begin_inset Quotes xrd
+\end_inset
+
+ chapter, part 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Character Creation
+\end_layout
+
+\begin_layout Standard
+This section explains the core ideas involved in playing Starlit Skies,
+ and how you can create a character.
+\end_layout
+
+\begin_layout Subsection
+Concept
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: insert generic 
+\begin_inset Quotes xld
+\end_inset
+
+what is roleplaying
+\begin_inset Quotes xrd
+\end_inset
+
+ chapter, part 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Origin Name
+\end_layout
+
+\begin_layout Standard
+Before starting on your character's statistics, you should decide their
+ Origin Key, the fundamental basis of their magic.
+ It defines how they use their magic, and what kinds of things they can
+ do with it.
+ To create an Origin Key, define what kinds of magic your character does,
+ and the common theme/emotions that tie them together, then give them a
+ poetic name.
+\end_layout
+
+\begin_layout Standard
+For example, you could have an Origin Key of "What the Stars Dream", drawing
+ on the romanticism of the starry night sky, and the dreams of those that
+ gaze to them.
+ Such magic would manifest as rays of star light, rifts into space to suck
+ enemies in, and on a more esoteric note, to "read the stars" to divine
+ information that would otherwise not be known to its wielder.
+ 
+\end_layout
+
+\begin_layout Standard
+Alternatively, an Origin Key of "The Void's Embrace" would draw on the spaces
+ between worlds, the end of all things, that which separates worlds and
+ allows them to exist independently, yet channeled as a protective force.
+ It would manifest as the blades and beams of nothingness, and shields of
+ nothingness, the temporary suspension of physical laws like gravity for
+ short durations.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: write section
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

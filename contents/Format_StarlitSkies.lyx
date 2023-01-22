@@ -203,7 +203,7 @@ overridegeometry{--}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "RulebookShared/Format_Common.lyx"
+filename "../RulebookShared/Format_Common.lyx"
 
 \end_inset
 
@@ -263,7 +263,7 @@ definesection{forward}%
 
 \begin_layout Plain Layout
 
-	{Quicksand}{fonts/Quicksand-SemiBold.ttf}%
+	{Quicksand}{../fonts/Quicksand-SemiBold.ttf}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -280,7 +280,7 @@ definesection{starlit}%
 
 \begin_layout Plain Layout
 
-	{Quicksand}{fonts/Quicksand-SemiBold.ttf}%
+	{Quicksand}{../fonts/Quicksand-SemiBold.ttf}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -496,22 +496,22 @@ input@path,
 
 \begin_layout Plain Layout
 
-	UprightFont    = fonts/SignikaNegative-Regular.ttf,
+	UprightFont    = ../fonts/SignikaNegative-Regular.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	BoldFont       = fonts/SignikaNegative-SemiBold.ttf,
+	BoldFont       = ../fonts/SignikaNegative-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	ItalicFont     = fonts/SignikaNegative-SemiBold.ttf,
+	ItalicFont     = ../fonts/SignikaNegative-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	BoldItalicFont = fonts/SignikaNegative-SemiBold.ttf,
+	BoldItalicFont = ../fonts/SignikaNegative-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
@@ -535,22 +535,22 @@ input@path,
 
 \begin_layout Plain Layout
 
-	UprightFont    = fonts/SignikaNegative-Regular.ttf,
+	UprightFont    = ../fonts/SignikaNegative-Regular.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	BoldFont       = fonts/SignikaNegative-SemiBold.ttf,
+	BoldFont       = ../fonts/SignikaNegative-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	ItalicFont     = fonts/SignikaNegative-SemiBold.ttf,
+	ItalicFont     = ../fonts/SignikaNegative-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	BoldItalicFont = fonts/SignikaNegative-SemiBold.ttf,
+	BoldItalicFont = ../fonts/SignikaNegative-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout

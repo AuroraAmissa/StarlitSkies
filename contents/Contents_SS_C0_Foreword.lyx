@@ -1,0 +1,433 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\use_default_options true
+\begin_modules
+enumitem
+todonotes
+fixltx2e
+InStar
+pdfform
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+
+InsetLayout Flex:IgnoreThis
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Do not Render"
+  LatexType             command
+  LatexName             ignorethis
+  ResetsFont            true
+End
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             environment
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	    1
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:ContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Content Warning"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns"
+  LatexType             environment
+  LatexName             twocolumnbox
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBoxFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns Fill"
+  LatexType             environment
+  LatexName             twocolumnboxfill
+  ResetsFont            true
+End
+
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	    1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+End
+
+InsetLayout Flex:LumPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumChapQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumIncomplete
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	    1
+  EndArgument
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 12
+\spacing other 1.15
+\use_hyperref true
+\pdf_title "Starlit Skies"
+\pdf_author "Lymia Aluysia"
+\pdf_subject "A roleplaying system about magical girls at the end of the world."
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\footskip 0.5in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip 8pt
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 1
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_StarlitSkies.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{starlit}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Foreword 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Foreword"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This document is an early test version for 
+\series bold
+Starlit Skies
+\series default
+, a roleplaying system about magical girls trying to make the best of the
+ end of the world.
+ The system is overall meant as a successor to the Magical Burst 3rd Draft
+ lineage of systems - one that was effectively abandoned by its original
+ author after they converted their system to use the PbtA framework.
+ As such, it follows up on Fact's efforts to finish that branch of the system
+ in his Project Rebirth and Burst Rewrite systems.
+\end_layout
+
+\begin_layout Standard
+Input and suggestions for the game are very much appreciated! Please come
+ talk to us in the Discord server linked below!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: The Discord server hasn't been created yet.
+ :( sorry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+repotext {Starlit Skies}{AuroraAmissa/StarlitSkies}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Improve the layout to better thematically match Starlit Skies.
+ Is currently somewhat temporary.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Credits
+\end_layout
+
+\begin_layout Itemize
+Lymia, the main designer and author of this system.
+\end_layout
+
+\begin_layout Itemize
+Suzune, for her amazing help in designing the mechanics of Starlit Skies
+ and inspiring me through the homebrew work she did in her own campaigns.
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "TTRPG Game Development Discord server"
+target "https://discord.gg/mQYjFgQbJg"
+literal "false"
+
+\end_inset
+
+ and its members, for all their advice that helped shape this system into
+ what it is today.
+\end_layout
+
+\begin_layout Itemize
+Fact and everyone else who contributed to Project Rebirth, and Burst Rewrite.
+ Those systems served as the basic inspiration for Starlit Skies, and continue
+ to be its lineage.
+\end_layout
+
+\begin_layout Itemize
+Yaruki Zero Games, who wrote the original Magical Burst 3rd draft that started
+ this entire branch of tabletop roleplay without meaning to.
+\end_layout
+
+\begin_layout Itemize
+The authors of Blades in the Dark, Chuubo's Marvelous Wish-Granting Engine,
+ and Exalted.
+ They were the major inspirations for the overall structure of Starlit Skies,
+ and the non-combat mechanics added in it.
+\end_layout
+
+\begin_layout Section*
+Legal Stuff
+\end_layout
+
+\begin_layout Standard
+This work is licensed under the Creative Commons Attribution-ShareAlike
+ 4.0 Unported License.
+ To view a copy of this license, visit 
+\begin_inset CommandInset href
+LatexCommand href
+name "their website"
+target "http://creativecommons.org/licenses/by-sa/4.0/"
+literal "false"
+
+\end_inset
+
+ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain
+ View, California, 94041, USA.
+\end_layout
+
+\begin_layout Standard
+This work uses fonts licensed under the 
+\begin_inset CommandInset href
+LatexCommand href
+name "SIL Open Font License, Version 1.1"
+target "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+literal "false"
+
+\end_inset
+
+.
+ It uses the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Signika Negative"
+target "https://fonts.google.com/specimen/Signika+Negative"
+literal "false"
+
+\end_inset
+
+ font by Anna Giedryś, the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Quicksand"
+target "https://github.com/andrew-paglinawan/QuicksandFamily"
+literal "false"
+
+\end_inset
+
+ font by Andrew Paglinawan, and the 
+\begin_inset CommandInset href
+LatexCommand href
+name "DejaVu Sans Mono"
+target "https://dejavu-fonts.github.io/"
+literal "false"
+
+\end_inset
+
+ font by various contributors.
+\end_layout
+
+\begin_layout Standard
+The mention of or reference to any company or product in these pages is
+ not a challenge to the trademark or copyright concerned.
+\end_layout
+
+\begin_layout Standard
+This work uses the supernatural for settings, characters and themes.
+ All mystical and supernatural elements are fiction and intended for entertainme
+nt purposes only.
+ 
+\end_layout
+
+\end_body
+\end_document
