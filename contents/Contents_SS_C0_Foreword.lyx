@@ -297,17 +297,12 @@ name "chap:Foreword"
 \end_layout
 
 \begin_layout Standard
-This document is an early development version for 
+This document is an early development version of 
 \series bold
 Starlit Skies
 \series default
-, a roleplaying system about magical girls trying to make the best of the
- end of the world.
- The system is overall meant as a successor to the Magical Burst 3rd Draft
- lineage of systems - one that was effectively abandoned by its original
- author after they converted their system to use the PbtA framework.
- As such, it follows up on Fact's efforts to finish that branch of the system
- in his Project Rebirth and Burst Rewrite systems.
+, a roleplaying system about magical girls navigating growing up in a world
+ far more magical than they ever knew.
 \end_layout
 
 \begin_layout Standard
@@ -366,6 +361,141 @@ TODO: Improve the layout to better thematically match Starlit Skies.
 
 \end_layout
 
+\begin_layout Section
+Author's Commentary
+\end_layout
+
+\begin_layout Standard
+Long ago, I started 
+\series bold
+Starlit Skies
+\series default
+ as project to continue the lineage of the tabletop system that truly introduced
+ me to the hobby, after its author abandoned that draft version entirely
+ in favor of a PbtA inspired approach.
+ As I worked on it, the product became more to me.
+ Maybe...
+ it was just the way I thought about roleplay that was abandoned.
+\end_layout
+
+\begin_layout Standard
+After all, 
+\begin_inset Quotes xld
+\end_inset
+
+roleplaying
+\begin_inset Quotes xrd
+\end_inset
+
+ means many different things to different people.
+ For some it's like playing a game, and for others, like writing a story
+ together.
+ So, I decided what I would do.
+ 
+\series bold
+Starlit Skies
+\series default
+ calls back to how we played pretend as little kids, and when imagination
+ and fantasy ere natural to us.
+\end_layout
+
+\begin_layout Standard
+It's a childish thing, of course, one that we were supposed to put behind
+ us as we grew.
+ Most did as they were told – they refined that pretend into adult arts
+ like theater, or improvisation.
+ Others, stopped caring for fantasy, accepting that the banal was all that
+ mattered.
+\end_layout
+
+\begin_layout Standard
+I want to make a game for those of us who didn't know better.
+ In the IRC channels and Discord servers and fangirl forums of our past,
+ we continued doing as we always did as kids – without caring what the adults
+ or our 
+\begin_inset Quotes xld
+\end_inset
+
+betters
+\begin_inset Quotes xrd
+\end_inset
+
+ thought.
+ For us, roleplay and play pretend are the same thing.
+ We became the characters we imagined – princesses, knights at first, and
+ then the heroes of our favorite shows.
+ 
+\end_layout
+
+\begin_layout Standard
+We did it because it was fun, and we enjoyed imagining ourselves in these
+ characters.
+ Not for the sake of story, not for the sake of any art or anything so virtuous,
+ but because we liked to.
+\end_layout
+
+\begin_layout Standard
+We did it together, because together with others, we could imagine wonders
+ we never could alone.
+ The situations we imagined grew ever more complex – but the shape never
+ changed.
+\end_layout
+
+\begin_layout Standard
+When we learned that agreeing to what happens to our characters, when we
+ put so much of ourselves in them is hard.
+ Instead of abandoning that connection, we learned how to make rules to
+ decide fairly.
+\end_layout
+
+\begin_layout Standard
+At first, simple ones, like making rules against 
+\begin_inset Quotes xld
+\end_inset
+
+godmodding
+\begin_inset Quotes xrd
+\end_inset
+
+ – telling other people how their character feels or what would happen to
+ them.
+ Later on, some branches even added simple dice roll systems, for when people
+ wanted to leave a conflict to chance – or decide what 
+\begin_inset Quotes xld
+\end_inset
+
+really
+\begin_inset Quotes xrd
+\end_inset
+
+ happens when two players disagree.
+ In time, some of them even grew to be something that looked like a normal
+ tabletop system.
+\end_layout
+
+\begin_layout Standard
+That was the roleplaying culture I grew up with, and the one that still
+ influences how I view tabletop today.
+ It's childish, clinging to so many things most think it is better to abandon.
+ But, that's okay.
+ I don't write for those people.
+\end_layout
+
+\begin_layout Standard
+Because, 
+\series bold
+Starlit Skies
+\series default
+ is the system I wish I had when I was a kid myself.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 Credits
 \end_layout
@@ -406,12 +536,12 @@ Yaruki Zero Games, who wrote the original Magical Burst 3rd draft that started
 
 \begin_layout Itemize
 The authors of Blades in the Dark, Chuubo's Marvelous Wish-Granting Engine,
- and Exalted.
+ Fabula Ultima, and Exalted.
  They were the major inspirations for the overall structure of Starlit Skies,
  and the non-combat mechanics added in it.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 Legal Stuff
 \end_layout
 
@@ -481,7 +611,8 @@ The mention of or reference to any company or product in these pages is
 This work uses the supernatural for settings, characters and themes.
  All mystical and supernatural elements are fiction and intended for entertainme
 nt purposes only.
- 
+ Any reference to people and events existing in the past or future is pure
+ coincidence and not intended.
 \end_layout
 
 \end_body

@@ -294,37 +294,87 @@ Welcome to
 \series bold
 Starlit Skies
 \series default
-, a tabletop roleplaying game for three to five people.
+, a tabletop roleplaying game inspired by the magical girl genre of anime.
 \end_layout
 
 \begin_layout Standard
-Welcome to 
+In those shows, magical girls are ordinary girls who were given the gift
+ of magic, and burdened with the responsibility to fight for all that is
+ good in the world.
+ Unlike superhero movies or sentai shows, though, the magical girl genre
+ stays grounded in the more mundane sides of life.
+\end_layout
+
+\begin_layout Standard
+Its protagonists live normal lives still, going to school, and experiencing
+ all the challenges of friendship, growing up and self-discovery like anyone
+ else.
+ They are a part of the world, and that is why they protect it.
+ Rather than detached ideals or duties, they fight for the world they live
+ in and love.
+ In doing so, they learn about the world and themselves, discover what ails
+ their world and struggle to make it a better place in the end.
+\end_layout
+
+\begin_layout Standard
+When you play 
 \series bold
 Starlit Skies
 \series default
-, a roleplaying game for three to five people – two to four players and
- one person who serves as the game's Host.
- In this game, you play a Starlit, a shining hero born of the end of the
- world - and now fights to sustain what remains and keep alive the one thing
- humanity will always have; their hopes and dreams.
- In other words; a magical girl.
+, you and at least two other players work together to experience such a
+ story – and thus, remember the depths of imagination we knew as children.
+\end_layout
+
+\begin_layout Section
+Tabletop Roleplaying
 \end_layout
 
 \begin_layout Standard
-This system is designed to tell stories like those of the magical girl genre,
- and for higher-powered campaigns where combat can be avoided through diplomacy
- or heart-felt appeals – and yet, just as often, cosmic forces conspire
- such that there is no choice but to fight.
+
+\series bold
+Starlit Skies
+\series default
+ is a 
+\begin_inset Quotes xld
+\end_inset
+
+tabletop roleplaying game
+\begin_inset Quotes xrd
+\end_inset
+
+ – and at its heart, those are the mix of two things: roleplay and a tabletop
+ game.
 \end_layout
 
 \begin_layout Standard
-This book presents a specific setting, but the rules in it can be used for
- most of the magical girl genre with only slight changes.
- You may want to check the Variant Rules section for optional rules that
- may make this system match your setting better.
- For stories in different genres, the archive containing this document contains
- a separate conversion guide that has advice and tips for changing the rules
- of Starlit Skies to suit a broad range of genres.
+In roleplays, people play pretend together.
+ Most of us first learned how to as kids, taking on the roles of princess
+ or police officer.
+ Some of us went on to play our favorite characters in chatrooms and forums
+ hidden across the internet.
+ Some of us, even, went into theater later, learning about improv and the
+ formal practices of acting.
+\end_layout
+
+\begin_layout Standard
+In tabletop games, we agree to playing games with well defined rules.
+ Some (like chess) we play to find out who wins, and some (like charades)
+ we play just to see what happens.
+ Unlike in video games, though, since you follow the rules instead of a
+ computer, the rules are flexible and easy to change.
+ You can always make a variation if a rule isn't working.
+\end_layout
+
+\begin_layout Standard
+Roleplaying without rules usually turns into arguments over how to continue
+ the story, as most of us found out as kids.
+ Thus, the tabletop game part adds rules that help you decide what happens
+ next in a fair way.
+ This is how tabletop games and roleplay combine to make something amazing.
+\end_layout
+
+\begin_layout Section
+How to Play
 \end_layout
 
 \begin_layout Standard
@@ -332,116 +382,12 @@ This book presents a specific setting, but the rules in it can be used for
 status open
 
 \begin_layout Plain Layout
-TODO: The conversion guide does not exist yet.
- Write it eventually.
+Section on how to play the game and the needed materials.
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-When playing this game in person, all that is needed is pen and paper, and
- five ordinary six-sided dice for each player including the Host.
- While optional, it would be very useful to keep a printout of this document
- on hand (or a computer/tablet you can easily access it with) and a printout
- of the character sheet for each player.
-\end_layout
-
-\begin_layout Standard
-For online play, each player should have a copy of this document and a means
- to share character sheets and information with each other, such as Google
- Docs or Microsoft 365.
- In addition, you will need a means to roll dice – whether that is physical
- dice for each player, or a dice roller program or bot.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-What Roleplaying Means
-\end_layout
-
-\begin_layout Standard
-The word 
-\begin_inset Quotes xld
-\end_inset
-
-roleplaying
-\begin_inset Quotes xrd
-\end_inset
-
- means many different things to different people – and every roleplaying
- game has its own idea.
- For some it's like playing a game, and for others, like writing a story
- together.
-\end_layout
-
-\begin_layout Standard
-Starlit Skies calls back to how we played pretend as little kids, and how
- imagination and fantasy were natural to us.
- It's a childish thing, of course, that we were supposed to put behind us
- as we grew.
- Most did as they were told – they refined that pretend into adult arts
- like theater, or improvisation.
- Others, stopped caring for fantasy, accepting that the banal was all that
- mattered.
-\end_layout
-
-\begin_layout Standard
-This is a game for those of us who didn't know better.
- In the IRC channels and Discord servers and fangirl forums of our past,
- we continued doing as we always did as kids – without caring what the adults
- thought.
- For us, roleplay and play pretend are the same thing.
- We became the characters we imagined – princesses, knights at first, and
- then the heroes of our favorite shows.
-\end_layout
-
-\begin_layout Standard
-We did it because pretending together was fun, not for the story or anything
- so virtuous.
- Pretend feels more real, after all, when others can decide to do things
- you could never have imagined yourself.
- The situations we imagined grew ever more complex – but the shape never
- changed.
-\end_layout
-
-\begin_layout Standard
-In time, we learned to pretend better.
- We learned that telling people how their character would feel and what
- would happen to them was bad.
- We called that 
-\begin_inset Quotes xld
-\end_inset
-
-godmodding
-\begin_inset Quotes xrd
-\end_inset
-
- and made rules against it.
- Sometimes, we added simple dice rolls, for when people wished to leave
- a conflict to chance – or decide what happens when two players just couldn't
- agree what happened.
-\end_layout
-
-\begin_layout Standard
-Sometimes, those rules grew to be more complete – becoming something that
- looks like tabletop of the sorts of Dungeons & Dragons or Apocalypse World,
- but was certainly not.
-\end_layout
-
-\begin_layout Standard
-It became a forgotten branch of tabletop design of its own, one few designers
- felt was worthy to be passed on.
- In writing Starlit Skies, I hope to pass on that torch – to continue that
- branch of roleplaying where we dream together.
 \end_layout
 
 \end_body
