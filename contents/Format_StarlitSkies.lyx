@@ -180,6 +180,37 @@ status open
 
 \begin_layout Plain Layout
 
+% In Latex preamble
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifdefined
+\backslash
+includeonceformatstarlitskiespreamble 
+\backslash
+relax 
+\backslash
+else
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+includeonceformatstarlitskiespreamble {--}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
 geometry{verbose,letterpaper,tmargin=1.1in,bmargin=1.1in,lmargin=0.85in,rmargin=0.85
@@ -193,6 +224,17 @@ in,footskip=0.9in}
 newcommand
 \backslash
 overridegeometry{--}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fi
 \end_layout
 
 \end_inset
