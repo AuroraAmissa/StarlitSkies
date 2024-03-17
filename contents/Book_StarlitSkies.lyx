@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -13,7 +13,7 @@ fixltx2e
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
 
@@ -169,8 +169,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,7 +178,9 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
@@ -188,6 +190,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 12
 \spacing other 1.15
 \use_hyperref true
@@ -203,7 +207,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -224,7 +228,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -237,7 +243,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip 8pt
+\defskip halfline
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -245,11 +251,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -258,6 +269,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_StarlitSkies.lyx"
+literal "true"
 
 \end_inset
 
@@ -272,7 +284,7 @@ status open
 
 
 \backslash
-lumcustomtitle{Starlit Skies}{}
+lumcustomtitle{Starlit Skies}{}{starlit}
 \end_layout
 
 \begin_layout Plain Layout
@@ -291,6 +303,7 @@ setsection{starlit}
 \begin_inset CommandInset include
 LatexCommand input
 filename "Contents_SS_C0_Foreword.lyx"
+literal "true"
 
 \end_inset
 
@@ -331,6 +344,7 @@ lumcustomtoc
 \begin_inset CommandInset include
 LatexCommand input
 filename "Contents_SS_C1_Introduction.lyx"
+literal "true"
 
 \end_inset
 
@@ -363,12 +377,14 @@ Tales of the Night Sky
 
 \begin_layout Plain Layout
 —
+
 \end_layout
 
 \begin_layout Plain Layout
 \begin_inset CommandInset include
 LatexCommand input
 filename "Contents_SS_C2_Setting.lyx"
+literal "true"
 
 \end_inset
 
@@ -391,6 +407,7 @@ filename "Contents_SS_C2_Setting.lyx"
 \begin_inset CommandInset include
 LatexCommand input
 filename "Contents_SS_C3_BasicRules.lyx"
+literal "true"
 
 \end_inset
 

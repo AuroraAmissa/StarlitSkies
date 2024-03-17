@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass memoir
+\begin_preamble
+% Added by lyx2lyx
+\setlength{\parskip}{8pt}
+\setlength{\parindent}{0pt}
+\end_preamble
 \use_default_options true
 \begin_modules
 enumitem
@@ -13,7 +18,7 @@ fixltx2e
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
 
@@ -169,8 +174,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,7 +183,9 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
@@ -188,6 +195,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 12
 \spacing other 1.15
 \use_hyperref true
@@ -203,7 +212,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -224,7 +233,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -237,7 +248,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip 8pt
+\defskip halfline
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -245,11 +256,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -258,6 +274,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_StarlitSkies.lyx"
+literal "true"
 
 \end_inset
 
@@ -289,11 +306,11 @@ Tale of the Night Sky
 \series bold
 Starlit Skies
 \series default
- takes place after the end of the world – not one full of desolate wastelands
- and inevitable decay, but one full of bright dreams dulled by overwhelming
- sorrows.
- After all, for all the magic and wonder that came with it, the world still
- ended.
+ takes place after the end of the world – not one full of desolate wastelands and inevitable decay,
+ but one full of bright dreams dulled by overwhelming sorrows.
+ After all,
+ for all the magic and wonder that came with it,
+ the world still ended.
 \end_layout
 
 \begin_layout Standard
@@ -306,27 +323,33 @@ Shattered Stars
 \end_layout
 
 \begin_layout Standard
-Earth was once a far grander world, full of tens of billions of people –
- all living their own lives and dreaming of different things.
- It seemed we would make it through it all okay, despite all the troubles
- of the era.
- That, in the far future, we could make the Utopia we all dreamed of.
+Earth was once a far grander world,
+ full of tens of billions of people – all living their own lives and dreaming of different things.
+ It seemed we would make it through it all okay,
+ despite all the troubles of the era.
+ That,
+ in the far future,
+ we could make the Utopia we all dreamed of.
  So we thought...
 \end_layout
 
 \begin_layout Standard
 Fate was not so kind.
- One day, the world simply vanished.
- Perhaps God truly was dying in the wake of an era where belief was fading
- away, perhaps we were caught in the ashes of an unseen war in the heavens.
+ One day,
+ the world simply vanished.
+ Perhaps God truly was dying in the wake of an era where belief was fading away,
+ perhaps we were caught in the ashes of an unseen war in the heavens.
  Nobody truly knows.
 \end_layout
 
 \begin_layout Standard
-In the last moments of the world, the stars burned away, the land cracked
- and disappeared, the sky fell into pieces.
- We found no gods, no proper ending, no answers beyond the skies – just
- the pure light the world itself were once made of.
+In the last moments of the world,
+ the stars burned away,
+ the land cracked and disappeared,
+ the sky fell into pieces.
+ We found no gods,
+ no proper ending,
+ no answers beyond the skies – just the pure light the world itself were once made of.
 \end_layout
 
 \begin_layout Subsection
@@ -334,32 +357,36 @@ The First Star
 \end_layout
 
 \begin_layout Standard
-In a world outside time and space, humanity fell into a long shared dream.
- Even if we held all the Light of creation in our hands, we were not meant
- for such a world.
+In a world outside time and space,
+ humanity fell into a long shared dream.
+ Even if we held all the Light of creation in our hands,
+ we were not meant for such a world.
  Even for those who didn't chose to forget...
  their time in the First Star was still but a faint memory.
 \end_layout
 
 \begin_layout Standard
 Humanity were caught in a crossroads.
- All our grandest dreams could come true in the world we created – but which
- ones? We could choose to live the lives we always wanted to – but what
- about everybody else in our lives? Or perhaps we could forget it ever happened,
+ All our grandest dreams could come true in the world we created – but which ones?
+ We could choose to live the lives we always wanted to – but what about everybody else in our lives?
+ Or perhaps we could forget it ever happened,
  undo the end of the world with the power we had.
 \end_layout
 
 \begin_layout Standard
-In the Light of the First Star, so many ideals and dreams clashed, with
- no clear winner.
- Towards the end of that dream, we came to simply create the worlds we wished
- for without regard, fragmenting its Light into countless Fragments.
+In the Light of the First Star,
+ so many ideals and dreams clashed,
+ with no clear winner.
+ Towards the end of that dream,
+ we came to simply create the worlds we wished for without regard,
+ fragmenting its Light into countless Fragments.
 \end_layout
 
 \begin_layout Standard
 Those decisions sealed our fate.
- We gave up on the ideal situation, and all each of us were left to do was
- to find a world that best suited us, for better or worse...
+ We gave up on the ideal situation,
+ and all each of us were left to do was to find a world that best suited us,
+ for better or worse...
 \end_layout
 
 \begin_layout Subsection
@@ -367,30 +394,35 @@ The Sea of Fragments
 \end_layout
 
 \begin_layout Standard
-Countless worlds were born from the First Star, each with its own laws of
- reality and peoples and landscapes.
- Some, we created from the stories we loved in our childhood or the myths
- of long-gone eras.
- Others, from pure imagination and ideas of what a more bright world could
- be like.
+Countless worlds were born from the First Star,
+ each with its own laws of reality and peoples and landscapes.
+ Some,
+ we created from the stories we loved in our childhood or the myths of long-gone eras.
+ Others,
+ from pure imagination and ideas of what a more bright world could be like.
 \end_layout
 
 \begin_layout Standard
-As the First Star dimmed, its light scattered across the Sea of Fragments...
- the people within were left to choose – between the worlds they dreamed
- of, the lives they wanted to live, between the people they wanted to stay
- with forever.
+As the First Star dimmed,
+ its light scattered across the Sea of Fragments...
+ the people within were left to choose – between the worlds they dreamed of,
+ the lives they wanted to live,
+ between the people they wanted to stay with forever.
 \end_layout
 
 \begin_layout Standard
-Often, there was no perfect answer – it seemed; not even to not choose.
+Often,
+ there was no perfect answer – it seemed;
+ not even to not choose.
 \end_layout
 
 \begin_layout Standard
-Even if they only remembered the First Star as a vague dream, the people
- of each Fragment knew in their hearts the choices they were forced to make,
+Even if they only remembered the First Star as a vague dream,
+ the people of each Fragment knew in their hearts the choices they were forced to make,
  and still longed for those people they missed.
- To them, it seemed all there was to do was live on, and let the past go.
+ To them,
+ it seemed all there was to do was live on,
+ and let the past go.
 \end_layout
 
 \begin_layout Subsection
@@ -398,28 +430,29 @@ New Earth
 \end_layout
 
 \begin_layout Standard
-Of all the Fragments, one stands out in particular as special – New Earth,
+Of all the Fragments,
+ one stands out in particular as special – New Earth,
  a world created by those who did not want anything to change at all.
- It is the brightest of all the Fragments, containing half the people of
- the Old Earth, all living ordinary lives with all the joys and sorrows
- that brings.
+ It is the brightest of all the Fragments,
+ containing half the people of the Old Earth,
+ all living ordinary lives with all the joys and sorrows that brings.
 \end_layout
 
 \begin_layout Standard
 The laws woven into New Earth to uphold it were harsh.
- It asks that all those who live within it forget the First Star, and all
- that was lost during the end – even the people closest to them, that left
- for the Sea of Fragments.
- Even if they were not allowed to remember, the pain remains, lingering
- in the depths of their dreams.
+ It asks that all those who live within it forget the First Star,
+ and all that was lost during the end – even the people closest to them,
+ that left for the Sea of Fragments.
+ Even if they were not allowed to remember,
+ the pain remains,
+ lingering in the depths of their dreams.
 \end_layout
 
 \begin_layout Standard
 The people of New Earth are far more scared than before.
  Even if life goes on – it was ever so slightly less colorful.
- So many of those who dreamed of brighter did not want to return to mundanity
- – so many more decided to stay, but found their dreams dimmed by the pain
- of what they were asked to forget.
+ So many of those who dreamed of brighter did not want to return to mundanity – so many more decided to stay,
+ but found their dreams dimmed by the pain of what they were asked to forget.
 \end_layout
 
 \begin_layout Section
@@ -427,16 +460,19 @@ The Starlit
 \end_layout
 
 \begin_layout Standard
-We were rash, even as we held the power of gods in our hands.
- New Earth was created from a shared subconscious wish, locking away the
- majority of the First Star's Light before anyone truly began to understand.
+We were rash,
+ even as we held the power of gods in our hands.
+ New Earth was created from a shared subconscious wish,
+ locking away the majority of the First Star's Light before anyone truly began to understand.
 \end_layout
 
 \begin_layout Standard
-In fear that all the Light would soon be faded, those who dreamed of fantasies
- and utopias created their Fragments soon after.
- In time, the remaining souls of humanity moved on, choosing one Fragment
- or another, leaving behind the First Star.
+In fear that all the Light would soon be faded,
+ those who dreamed of fantasies and utopias created their Fragments soon after.
+ In time,
+ the remaining souls of humanity moved on,
+ choosing one Fragment or another,
+ leaving behind the First Star.
 \end_layout
 
 \begin_layout Standard
@@ -447,9 +483,10 @@ But...
 
 \begin_layout Standard
 Their decision was different.
- They found a new answer, one that came all too late for the rest of humanity.
- Rather than weaving it into a world, they took the light of the First Star
- into themselves.
+ They found a new answer,
+ one that came all too late for the rest of humanity.
+ Rather than weaving it into a world,
+ they took the light of the First Star into themselves.
 \end_layout
 
 \begin_layout Subsection
@@ -461,7 +498,9 @@ The Nature of Light
 status open
 
 \begin_layout Plain Layout
-TODO: Nature of the Starlit, what it means to be Fragments in themselves.
+TODO:
+ Nature of the Starlit,
+ what it means to be Fragments in themselves.
 \end_layout
 
 \end_inset
@@ -478,8 +517,9 @@ Wings and Chains
 status open
 
 \begin_layout Plain Layout
-TODO: How the Starlit came to be trapped on New Earth, and how that was
- a blessing in disguise.
+TODO:
+ How the Starlit came to be trapped on New Earth,
+ and how that was a blessing in disguise.
 \end_layout
 
 \end_inset
@@ -496,8 +536,9 @@ Shadows and Horrors
 status open
 
 \begin_layout Plain Layout
-TODO: The sorrow of the stars, the horrors born of Light tainted by negative
- emotion.
+TODO:
+ The sorrow of the stars,
+ the horrors born of Light tainted by negative emotion.
 \end_layout
 
 \end_inset
@@ -506,7 +547,8 @@ TODO: The sorrow of the stars, the horrors born of Light tainted by negative
 \end_layout
 
 \begin_layout Section
-A Moment, Frozen in Time
+A Moment,
+ Frozen in Time
 \end_layout
 
 \begin_layout Standard
@@ -514,8 +556,9 @@ A Moment, Frozen in Time
 status open
 
 \begin_layout Plain Layout
-TODO: The present state of the Sea of Fragments, how the worlds drift away
- in what seems a slow decay to the Starlit.
+TODO:
+ The present state of the Sea of Fragments,
+ how the worlds drift away in what seems a slow decay to the Starlit.
  Their struggle against what seems inevitable - but isn't.
 \end_layout
 

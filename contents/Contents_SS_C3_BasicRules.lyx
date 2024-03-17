@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass memoir
+\begin_preamble
+% Added by lyx2lyx
+\setlength{\parskip}{8pt}
+\setlength{\parindent}{0pt}
+\end_preamble
 \use_default_options true
 \begin_modules
 enumitem
@@ -13,7 +18,7 @@ fixltx2e
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
 
@@ -169,8 +174,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,7 +183,9 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
@@ -188,6 +195,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 12
 \spacing other 1.15
 \use_hyperref true
@@ -203,7 +212,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -224,7 +233,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -237,7 +248,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip 8pt
+\defskip halfline
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -245,11 +256,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -258,6 +274,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_StarlitSkies.lyx"
+literal "true"
 
 \end_inset
 
@@ -365,11 +382,12 @@ Approaches
 \end_layout
 
 \begin_layout Standard
-After choosing your character concept, the next step is to start fleshing
- out her strengths and weaknesses.
- Characters have three approaches called Gleam, Heart and Dream.
- Each of them has a point value from 0 to 4, that shows how good your character
- is at using that approach.
+After choosing your character concept,
+ the next step is to start fleshing out her strengths and weaknesses.
+ Characters have three approaches called Gleam,
+ Heart and Dream.
+ Each of them has a point value from 0 to 4,
+ that shows how good your character is at using that approach.
 \end_layout
 
 \begin_layout Itemize
@@ -377,9 +395,9 @@ After choosing your character concept, the next step is to start fleshing
 \series bold
 Heart
 \series default
- shows how well your character solves problems when driven by her emotions
- and willpower.
- When she uses magic, she turns her feelings into raging energy.
+ shows how well your character solves problems when driven by her emotions and willpower.
+ When she uses magic,
+ she turns her feelings into raging energy.
 \end_layout
 
 \begin_layout Itemize
@@ -387,9 +405,9 @@ Heart
 \series bold
 Shine
 \series default
- shows how well your character solves problems when through careful analysis
- and understanding.
- When she uses magic, she calls upon esoteric secrets of the world.
+ shows how well your character solves problems when through careful analysis and understanding.
+ When she uses magic,
+ she calls upon esoteric secrets of the world.
 \end_layout
 
 \begin_layout Itemize
@@ -397,14 +415,14 @@ Shine
 \series bold
 Dream
 \series default
- shows how well your character solves problems when through her creativity
- and imagination.
- When she uses magic, she manifests her dreams physically into reality.
+ shows how well your character solves problems when through her creativity and imagination.
+ When she uses magic,
+ she manifests her dreams physically into reality.
 \end_layout
 
 \begin_layout Standard
-At the start of the game, you have 5 points that you can distribute between
- the three Approaches.
+At the start of the game,
+ you have 5 points that you can distribute between the three Approaches.
  You can only start with up to 3 points in any given Approach.
 \end_layout
 
@@ -413,13 +431,14 @@ Skills
 \end_layout
 
 \begin_layout Standard
-Next, you choose your character's skills.
- Skills are point values that work a lot like approaches, but showing how
- well they do at more specific tasks.
- When your character does something difficult, you use a skill and an approach
- together to find out whether she succeeds in what she's trying.
- There are eight skills, that represent actions that make sense no matter
- what kind of world you find yourself in.
+Next,
+ you choose your character's skills.
+ Skills are point values that work a lot like approaches,
+ but showing how well they do at more specific tasks.
+ When your character does something difficult,
+ you use a skill and an approach together to find out whether she succeeds in what she's trying.
+ There are eight skills,
+ that represent actions that make sense no matter what kind of world you find yourself in.
 \end_layout
 
 \begin_layout Itemize
@@ -436,8 +455,8 @@ Athletics
 \series bold
 Finesse
 \series default
- shows how well your characters can move quickly or accurately, such as
- when navigating a tight corridor or picking a lock.
+ shows how well your characters can move quickly or accurately,
+ such as when navigating a tight corridor or picking a lock.
 \end_layout
 
 \begin_layout Itemize
@@ -445,8 +464,7 @@ Finesse
 \series bold
 Awareness
 \series default
- shows how well your character remains aware of her surroundings in complicated
- situations or when distracted.
+ shows how well your character remains aware of her surroundings in complicated situations or when distracted.
 \end_layout
 
 \begin_layout Itemize
@@ -454,8 +472,7 @@ Awareness
 \series bold
 Analysis
 \series default
- shows how well your character can determine the implications of known facts
- and connect them together.
+ shows how well your character can determine the implications of known facts and connect them together.
 \end_layout
 
 \begin_layout Itemize
@@ -463,8 +480,7 @@ Analysis
 \series bold
 Intuition
 \series default
- shows how well your character picks up on unseen patterns and work with
- incomplete information.
+ shows how well your character picks up on unseen patterns and work with incomplete information.
 \end_layout
 
 \begin_layout Itemize
@@ -472,8 +488,8 @@ Intuition
 \series bold
 Expression
 \series default
- shows how well your character expresses their own feelings, such as when
- pleading with another to work with her or writing a poem.
+ shows how well your character expresses their own feelings,
+ such as when pleading with another to work with her or writing a poem.
 \end_layout
 
 \begin_layout Itemize
@@ -481,8 +497,8 @@ Expression
 \series bold
 Connection
 \series default
- shows how well your character connects to others, such as to understand
- how they really feel or comfort someone through sympathy.
+ shows how well your character connects to others,
+ such as to understand how they really feel or comfort someone through sympathy.
 \end_layout
 
 \begin_layout Itemize
@@ -490,15 +506,15 @@ Connection
 \series bold
 Deception
 \series default
- shows how well your character deceives others, such as when sneaking through
- a building or concealing her emotions.
+ shows how well your character deceives others,
+ such as when sneaking through a building or concealing her emotions.
 \end_layout
 
 \begin_layout Standard
-At the start of the game, you have 10 points that you can distribute between
- your skills.
- You can only start with up to 3 points in any skill, and can only put a
- third point in up to 2 skills.
+At the start of the game,
+ you have 10 points that you can distribute between your skills.
+ You can only start with up to 3 points in any skill,
+ and can only put a third point in up to 2 skills.
 \end_layout
 
 \begin_layout Subsection
@@ -506,38 +522,37 @@ Authority
 \end_layout
 
 \begin_layout Standard
-The worlds in the Sea of Stars all have their own rules and magics, shaping
- their Light into countless forms.
- Authorities reflect the special powers your characters can use, whether
- through their innate power as Starlit or under the authority of a world
- they find themselves in.
+The worlds in the Sea of Stars all have their own rules and magics,
+ shaping their Light into countless forms.
+ Authorities reflect the special powers your characters can use,
+ whether through their innate power as Starlit or under the authority of a world they find themselves in.
  
 \end_layout
 
 \begin_layout Standard
-With their Authorities, characters can do things that go beyond anything
- ordinary people could achieve.
- They work like special skills, with a list of extraordinary things you
- can do with them.
+With their Authorities,
+ characters can do things that go beyond anything ordinary people could achieve.
+ They work like special skills,
+ with a list of extraordinary things you can do with them.
  You can put points into them the same way as normal skills.
 \end_layout
 
 \begin_layout Standard
-Start by picking your character's Starlit Authority, that reflects her innate
- powers as a Starlit.
+Start by picking your character's Starlit Authority,
+ that reflects her innate powers as a Starlit.
  They should follow a theme reflecting who she is.
- For example, an astronomer might have powers to read the stars and define
- a person's fate, and an artist might be able to paint the things she imagines
- into life.
- Whatever you choose, name your Authority and use the template provided
- on your character sheet to define better what it does.
+ For example,
+ an astronomer might have powers to read the stars and define a person's fate,
+ and an artist might be able to paint the things she imagines into life.
+ Whatever you choose,
+ name your Authority and use the template provided on your character sheet to define better what it does.
 \end_layout
 
 \begin_layout Standard
-New Earth gives those living in it its own Authorities, built around the
- the miracles and conveniences that modern technology provide.
- On Earth and worlds with similar technology, you can use four additional
- Skills.
+New Earth gives those living in it its own Authorities,
+ built around the the miracles and conveniences that modern technology provide.
+ On Earth and worlds with similar technology,
+ you can use four additional Skills.
 \end_layout
 
 \begin_layout Itemize
@@ -545,8 +560,7 @@ New Earth gives those living in it its own Authorities, built around the
 \series bold
 Engineering
 \series default
- shows your character's proficiency at working with the physics of the world
- to construct machines and contraptions.
+ shows your character's proficiency at working with the physics of the world to construct machines and contraptions.
 \end_layout
 
 \begin_layout Itemize
@@ -554,8 +568,8 @@ Engineering
 \series bold
 Computers
 \series default
- shows your how good your character is at working with computers, whether
- using them or creating new programs.
+ shows your how good your character is at working with computers,
+ whether using them or creating new programs.
 \end_layout
 
 \begin_layout Itemize
@@ -563,8 +577,7 @@ Computers
 \series bold
 Medicine
 \series default
- shows how well your character understands anatomy and how to heal people
- using mundane means.
+ shows how well your character understands anatomy and how to heal people using mundane means.
 \end_layout
 
 \begin_layout Itemize
@@ -572,8 +585,9 @@ Medicine
 \series bold
 Nature
 \series default
- shows how well your character understands nature, and how to cultivate
- or care for plants, animals and ecosystems.
+ shows how well your character understands nature,
+ and how to cultivate or care for plants,
+ animals and ecosystems.
 \end_layout
 
 \begin_layout Standard
@@ -640,8 +654,9 @@ Challenges
 \end_layout
 
 \begin_layout Standard
-When you narrate your character doing something difficult, the Host can
- call for a Challenge, 
+When you narrate your character doing something difficult,
+ the Host can call for a Challenge,
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -653,8 +668,7 @@ Obstacle
 \end_layout
 
 \begin_layout Standard
-Obstacle represents innate difficulty in what you're trying to do or problems
- caused by environmental factors.
+Obstacle represents innate difficulty in what you're trying to do or problems caused by environmental factors.
 \end_layout
 
 \begin_layout Subsection

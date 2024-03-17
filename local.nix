@@ -1,6 +1,7 @@
 { ... }:
 
 {
+    name = "StarlitSkies";
     distArcName = "Starlit Skies";
     sourceArcName = "StarlitSkiesSources";
 

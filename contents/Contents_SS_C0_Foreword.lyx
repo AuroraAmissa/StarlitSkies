@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass memoir
+\begin_preamble
+% Added by lyx2lyx
+\setlength{\parskip}{8pt}
+\setlength{\parindent}{0pt}
+\end_preamble
 \use_default_options true
 \begin_modules
 enumitem
@@ -13,7 +18,7 @@ fixltx2e
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
 
@@ -169,8 +174,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,7 +183,9 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
@@ -188,6 +195,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 12
 \spacing other 1.15
 \use_hyperref true
@@ -203,7 +212,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -224,7 +233,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -237,7 +248,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip 8pt
+\defskip halfline
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -245,11 +256,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -258,6 +274,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_StarlitSkies.lyx"
+literal "true"
 
 \end_inset
 
@@ -296,13 +313,13 @@ This document is an early development version of
 \series bold
 Starlit Skies
 \series default
-, a roleplaying system about magical girls navigating growing up in a world
- far more magical than they ever knew.
+,
+ a roleplaying system about magical girls navigating growing up in a world far more magical than they ever knew.
 \end_layout
 
 \begin_layout Standard
-Input and suggestions for the game are very much appreciated! Please come
- talk to us in the Discord server linked below!
+Input and suggestions for the game are very much appreciated!
+ Please come talk to us in the Discord server linked below!
 \end_layout
 
 \begin_layout Standard
@@ -310,7 +327,8 @@ Input and suggestions for the game are very much appreciated! Please come
 status open
 
 \begin_layout Plain Layout
-TODO: The Discord server hasn't been created yet.
+TODO:
+ The Discord server hasn't been created yet.
  :( sorry
 \end_layout
 
@@ -340,7 +358,8 @@ repotext {Starlit Skies}{AuroraAmissa/StarlitSkies}
 status open
 
 \begin_layout Plain Layout
-TODO: Improve the layout to better thematically match Starlit Skies.
+TODO:
+ Improve the layout to better thematically match Starlit Skies.
  Is currently somewhat temporary.
 \end_layout
 
@@ -361,20 +380,22 @@ Author's Commentary
 \end_layout
 
 \begin_layout Standard
-Long ago, I started 
+Long ago,
+ I started 
 \series bold
 Starlit Skies
 \series default
- as project to continue the lineage of the tabletop system that truly introduced
- me to the hobby, after its author abandoned that draft version entirely
- in favor of a PbtA inspired approach.
- As I worked on it, the product became more to me.
+ as project to continue the lineage of the tabletop system that truly introduced me to the hobby,
+ after its author abandoned that draft version entirely in favor of a PbtA inspired approach.
+ As I worked on it,
+ the product became more to me.
  Maybe...
  it was just the way I thought about roleplay that was abandoned.
 \end_layout
 
 \begin_layout Standard
-After all, 
+After all,
+ 
 \begin_inset Quotes xld
 \end_inset
 
@@ -383,31 +404,34 @@ roleplaying
 \end_inset
 
  means many different things to different people.
- For some it's like playing a game, and for others, like writing a story
- together.
- So, I decided what I would do.
+ For some it's like playing a game,
+ and for others,
+ like writing a story together.
+ So,
+ I decided what I would do.
  
 \series bold
 Starlit Skies
 \series default
- calls back to how we played pretend as little kids, and when imagination
- and fantasy ere natural to us.
+ calls back to how we played pretend as little kids,
+ and when imagination and fantasy ere natural to us.
 \end_layout
 
 \begin_layout Standard
-It's a childish thing, of course, one that we were supposed to put behind
- us as we grew.
- Most did as they were told – they refined that pretend into adult arts
- like theater, or improvisation.
- Others, stopped caring for fantasy, accepting that the banal was all that
- mattered.
+It's a childish thing,
+ of course,
+ one that we were supposed to put behind us as we grew.
+ Most did as they were told – they refined that pretend into adult arts like theater,
+ or improvisation.
+ Others,
+ stopped caring for fantasy,
+ accepting that the banal was all that mattered.
 \end_layout
 
 \begin_layout Standard
 I want to make a game for those of us who didn't know better.
  In the IRC channels and Discord servers and fangirl forums of our past,
- we continued doing as we always did as kids – without caring what the adults
- or our 
+ we continued doing as we always did as kids – without caring what the adults or our 
 \begin_inset Quotes xld
 \end_inset
 
@@ -416,35 +440,40 @@ betters
 \end_inset
 
  thought.
- For us, roleplay and play pretend are the same thing.
- We became the characters we imagined – princesses, knights at first, and
- then the heroes of our favorite shows.
+ For us,
+ roleplay and play pretend are the same thing.
+ We became the characters we imagined – princesses,
+ knights at first,
+ and then the heroes of our favorite shows.
  
 \end_layout
 
 \begin_layout Standard
-We did it because it was fun, and we enjoyed imagining ourselves in these
- characters.
- Not for the sake of story, not for the sake of any art or anything so virtuous,
+We did it because it was fun,
+ and we enjoyed imagining ourselves in these characters.
+ Not for the sake of story,
+ not for the sake of any art or anything so virtuous,
  but because we liked to.
 \end_layout
 
 \begin_layout Standard
-We did it together, because together with others, we could imagine wonders
- we never could alone.
- The situations we imagined grew ever more complex – but the shape never
- changed.
+We did it together,
+ because together with others,
+ we could imagine wonders we never could alone.
+ The situations we imagined grew ever more complex – but the shape never changed.
 \end_layout
 
 \begin_layout Standard
-When we learned that agreeing to what happens to our characters, when we
- put so much of ourselves in them is hard.
- Instead of abandoning that connection, we learned how to make rules to
- decide fairly.
+When we learned that agreeing to what happens to our characters,
+ when we put so much of ourselves in them is hard.
+ Instead of abandoning that connection,
+ we learned how to make rules to decide fairly.
 \end_layout
 
 \begin_layout Standard
-At first, simple ones, like making rules against 
+At first,
+ simple ones,
+ like making rules against 
 \begin_inset Quotes xld
 \end_inset
 
@@ -452,10 +481,10 @@ godmodding
 \begin_inset Quotes xrd
 \end_inset
 
- – telling other people how their character feels or what would happen to
- them.
- Later on, some branches even added simple dice roll systems, for when people
- wanted to leave a conflict to chance – or decide what 
+ – telling other people how their character feels or what would happen to them.
+ Later on,
+ some branches even added simple dice roll systems,
+ for when people wanted to leave a conflict to chance – or decide what 
 \begin_inset Quotes xld
 \end_inset
 
@@ -464,20 +493,23 @@ really
 \end_inset
 
  happens when two players disagree.
- In time, some of them even grew to be something that looked like a normal
- tabletop system.
+ In time,
+ some of them even grew to be something that looked like a normal tabletop system.
 \end_layout
 
 \begin_layout Standard
-That was the roleplaying culture I grew up with, and the one that still
- influences how I view tabletop today.
- It's childish, clinging to so many things most think it is better to abandon.
- But, that's okay.
+That was the roleplaying culture I grew up with,
+ and the one that still influences how I view tabletop today.
+ It's childish,
+ clinging to so many things most think it is better to abandon.
+ But,
+ that's okay.
  I don't write for those people.
 \end_layout
 
 \begin_layout Standard
-Because, 
+Because,
+ 
 \series bold
 Starlit Skies
 \series default
@@ -496,12 +528,13 @@ Credits
 \end_layout
 
 \begin_layout Itemize
-Lymia, the main designer and author of this system.
+Lymia,
+ the main designer and author of this system.
 \end_layout
 
 \begin_layout Itemize
-Suzune, for her amazing help in designing the mechanics of Starlit Skies
- and inspiring me through the homebrew work she did in her own campaigns.
+Suzune,
+ for her amazing help in designing the mechanics of Starlit Skies and inspiring me through the homebrew work she did in her own campaigns.
 \end_layout
 
 \begin_layout Itemize
@@ -514,24 +547,27 @@ literal "false"
 
 \end_inset
 
- and its members, for all their advice that helped shape this system into
- what it is today.
+ and its members,
+ for all their advice that helped shape this system into what it is today.
 \end_layout
 
 \begin_layout Itemize
-Fact and everyone else who contributed to Project Rebirth, and Burst Rewrite.
- Those systems served as the basic inspiration for Starlit Skies, and continue
- to be its lineage.
+Fact and everyone else who contributed to Project Rebirth,
+ and Burst Rewrite.
+ Those systems served as the basic inspiration for Starlit Skies,
+ and continue to be its lineage.
 \end_layout
 
 \begin_layout Itemize
-Yaruki Zero Games, who wrote the original Magical Burst 3rd draft that started
- this entire branch of tabletop roleplay without meaning to.
+Yaruki Zero Games,
+ who wrote the original Magical Burst 3rd draft that started this entire branch of tabletop roleplay without meaning to.
 \end_layout
 
 \begin_layout Itemize
-The authors of Blades in the Dark, Chuubo's Marvelous Wish-Granting Engine,
- Fabula Ultima, and Exalted.
+The authors of Blades in the Dark,
+ Chuubo's Marvelous Wish-Granting Engine,
+ Fabula Ultima,
+ and Exalted.
  They were the major inspirations for the overall structure of Starlit Skies,
  and the non-combat mechanics added in it.
 \end_layout
@@ -541,9 +577,9 @@ Legal Stuff
 \end_layout
 
 \begin_layout Standard
-This work is licensed under the Creative Commons Attribution-ShareAlike
- 4.0 Unported License.
- To view a copy of this license, visit 
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Unported License.
+ To view a copy of this license,
+ visit 
 \begin_inset CommandInset href
 LatexCommand href
 name "their website"
@@ -552,8 +588,13 @@ literal "false"
 
 \end_inset
 
- or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain
- View, California, 94041, USA.
+ or send a letter to Creative Commons,
+ 444 Castro Street,
+ Suite 900,
+ Mountain View,
+ California,
+ 94041,
+ USA.
 \end_layout
 
 \begin_layout Standard
@@ -576,7 +617,8 @@ literal "false"
 
 \end_inset
 
- font by Anna Giedryś, the 
+ font by Anna Giedryś,
+ the 
 \begin_inset CommandInset href
 LatexCommand href
 name "Quicksand"
@@ -585,7 +627,8 @@ literal "false"
 
 \end_inset
 
- font by Andrew Paglinawan, and the 
+ font by Andrew Paglinawan,
+ and the 
 \begin_inset CommandInset href
 LatexCommand href
 name "DejaVu Sans Mono"
@@ -598,16 +641,14 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-The mention of or reference to any company or product in these pages is
- not a challenge to the trademark or copyright concerned.
+The mention of or reference to any company or product in these pages is not a challenge to the trademark or copyright concerned.
 \end_layout
 
 \begin_layout Standard
-This work uses the supernatural for settings, characters and themes.
- All mystical and supernatural elements are fiction and intended for entertainme
-nt purposes only.
- Any reference to people and events existing in the past or future is pure
- coincidence and not intended.
+This work uses the supernatural for settings,
+ characters and themes.
+ All mystical and supernatural elements are fiction and intended for entertainment purposes only.
+ Any reference to people and events existing in the past or future is pure coincidence and not intended.
 \end_layout
 
 \end_body

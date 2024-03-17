@@ -1,7 +1,6 @@
 name: Build distribution
 
 on:
-  workflow_dispatch:
   push:
     branches: [ main ]
     tags: [ '*' ]
@@ -14,12 +13,10 @@ jobs:
         with:
           submodules: 'recursive'
           lfs: true
-      - name: Install dependencies
-        run: sudo apt-get install -y lyx qpdf texlive-latex-recommended texlive-xetex
-      - name: Retrieve gitinfo
-        run: RulebookShared/hooks/post-checkout
-      - name: Run build script
-        run: ./build.sh ci
+      - uses: cachix/install-nix-action@v22
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+      - run: scripts/build.sh ci
       - uses: actions/upload-artifact@v2
         with:
           name: dist-packages
@@ -29,10 +26,9 @@ jobs:
     needs:
       - build
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
           submodules: 'recursive'
-          lfs: true
       - name: Fetch git tags.
         run: git fetch --prune --unshallow --tags
 
