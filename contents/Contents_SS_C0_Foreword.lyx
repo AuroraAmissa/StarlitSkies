@@ -297,11 +297,13 @@ setsection{starlit}
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
 \begin_layout Chapter
-Foreword 
-\begin_inset CommandInset label
-LatexCommand label
-name "chap:Foreword"
+Credits
+\end_layout
 
 \end_inset
 
@@ -309,32 +311,68 @@ name "chap:Foreword"
 \end_layout
 
 \begin_layout Standard
-This document is an early development version of 
-\series bold
-Starlit Skies
-\series default
-,
- a roleplaying system about magical girls navigating growing up in a world far more magical than they ever knew.
-\end_layout
-
-\begin_layout Standard
-Input and suggestions for the game are very much appreciated!
- Please come talk to us in the Discord server linked below!
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-TODO:
- The Discord server hasn't been created yet.
- :( sorry
+
+
+\backslash
+addcontentsline{toc}{chapter}{Credits}
 \end_layout
 
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Foreword-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Credits
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Lymia Kanokawa:
+
+\series default
+ Main developer,
+ writer,
+ and layout
+\end_layout
+
+\begin_layout Subsubsection*
+Special Thanks
+\end_layout
+
+\begin_layout Standard
+Suzune,
+ and the members of the 
+\begin_inset CommandInset href
+LatexCommand href
+name "TTRPG Game Development Discord server"
+target "https://discord.gg/mQYjFgQbJg"
+literal "false"
+
+\end_inset
+
+.
+ Fact,
+ and everyone else who contributed to Project Rebirth,
+ and Burst Rewrite.
+ Yaruki Zero Games,
+ who wrote the original Magical Burst 3rd Draft.
+\end_layout
+
+\begin_layout Subsubsection*
+Notice
 \end_layout
 
 \begin_layout Standard
@@ -354,13 +392,122 @@ repotext {Starlit Skies}{AuroraAmissa/StarlitSkies}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
+\begin_inset Float table
+placement b
+alignment document
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-TODO:
- Improve the layout to better thematically match Starlit Skies.
- Is currently somewhat temporary.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[align=c,width=2cm]{../resources/by-nc-sa} 
+\backslash
+hspace{0.5em}
+\end_layout
+
+\end_inset
+
+ Lymia Kanokawa,
+ 2023-2024
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+© 2023-2024 by Lymia Kanokawa.
+ This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+ To view a copy of this license,
+ visit 
+\begin_inset CommandInset href
+LatexCommand href
+name "their website"
+target "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+literal "false"
+
+\end_inset
+
+ or send a letter to Creative Commons,
+ 444 Castro Street,
+ Suite 900,
+ Mountain View,
+ California,
+ 94041,
+ USA.
+ This work uses fonts licensed under the 
+\begin_inset CommandInset href
+LatexCommand href
+name "SIL Open Font License, Version 1.1"
+target "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+literal "false"
+
+\end_inset
+
+.
+ It uses the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Signika Negative"
+target "https://fonts.google.com/specimen/Signika+Negative"
+literal "false"
+
+\end_inset
+
+ font by Anna Giedryś,
+ the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Quicksand"
+target "https://github.com/andrew-paglinawan/QuicksandFamily"
+literal "false"
+
+\end_inset
+
+ font by Andrew Paglinawan,
+ and the 
+\begin_inset CommandInset href
+LatexCommand href
+name "DejaVu Sans Mono"
+target "https://dejavu-fonts.github.io/"
+literal "false"
+
+\end_inset
+
+ font by various contributors.
+ The mention of or reference to any company or product in these pages is not a challenge to the trademark or copyright concerned.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+This work uses the supernatural for settings,
+ characters and themes.
+ All mystical and supernatural elements are fiction and intended for entertainment purposes only.
+ Furthermore,
+ this book contains mature content.
+ Reader discretion is advised.
 \end_layout
 
 \end_inset
@@ -369,14 +516,21 @@ TODO:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage newpage
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section
-Author's Commentary
+\begin_layout Chapter
+Foreword 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Foreword"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -514,141 +668,6 @@ Because,
 Starlit Skies
 \series default
  is the system I wish I had when I was a kid myself.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-Credits
-\end_layout
-
-\begin_layout Itemize
-Lymia,
- the main designer and author of this system.
-\end_layout
-
-\begin_layout Itemize
-Suzune,
- for her amazing help in designing the mechanics of Starlit Skies and inspiring me through the homebrew work she did in her own campaigns.
-\end_layout
-
-\begin_layout Itemize
-The 
-\begin_inset CommandInset href
-LatexCommand href
-name "TTRPG Game Development Discord server"
-target "https://discord.gg/mQYjFgQbJg"
-literal "false"
-
-\end_inset
-
- and its members,
- for all their advice that helped shape this system into what it is today.
-\end_layout
-
-\begin_layout Itemize
-Fact and everyone else who contributed to Project Rebirth,
- and Burst Rewrite.
- Those systems served as the basic inspiration for Starlit Skies,
- and continue to be its lineage.
-\end_layout
-
-\begin_layout Itemize
-Yaruki Zero Games,
- who wrote the original Magical Burst 3rd draft that started this entire branch of tabletop roleplay without meaning to.
-\end_layout
-
-\begin_layout Itemize
-The authors of Blades in the Dark,
- Chuubo's Marvelous Wish-Granting Engine,
- Fabula Ultima,
- and Exalted.
- They were the major inspirations for the overall structure of Starlit Skies,
- and the non-combat mechanics added in it.
-\end_layout
-
-\begin_layout Subsection*
-Legal Stuff
-\end_layout
-
-\begin_layout Standard
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
- To view a copy of this license,
- visit 
-\begin_inset CommandInset href
-LatexCommand href
-name "their website"
-target "http://creativecommons.org/licenses/by-sa/4.0/"
-literal "false"
-
-\end_inset
-
- or send a letter to Creative Commons,
- 444 Castro Street,
- Suite 900,
- Mountain View,
- California,
- 94041,
- USA.
-\end_layout
-
-\begin_layout Standard
-This work uses fonts licensed under the 
-\begin_inset CommandInset href
-LatexCommand href
-name "SIL Open Font License, Version 1.1"
-target "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
-literal "false"
-
-\end_inset
-
-.
- It uses the 
-\begin_inset CommandInset href
-LatexCommand href
-name "Signika Negative"
-target "https://fonts.google.com/specimen/Signika+Negative"
-literal "false"
-
-\end_inset
-
- font by Anna Giedryś,
- the 
-\begin_inset CommandInset href
-LatexCommand href
-name "Quicksand"
-target "https://github.com/andrew-paglinawan/QuicksandFamily"
-literal "false"
-
-\end_inset
-
- font by Andrew Paglinawan,
- and the 
-\begin_inset CommandInset href
-LatexCommand href
-name "DejaVu Sans Mono"
-target "https://dejavu-fonts.github.io/"
-literal "false"
-
-\end_inset
-
- font by various contributors.
-\end_layout
-
-\begin_layout Standard
-The mention of or reference to any company or product in these pages is not a challenge to the trademark or copyright concerned.
-\end_layout
-
-\begin_layout Standard
-This work uses the supernatural for settings,
- characters and themes.
- All mystical and supernatural elements are fiction and intended for entertainment purposes only.
- Any reference to people and events existing in the past or future is pure coincidence and not intended.
 \end_layout
 
 \end_body

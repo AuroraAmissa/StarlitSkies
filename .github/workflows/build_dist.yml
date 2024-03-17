@@ -39,7 +39,7 @@ jobs:
         with:
           name: dist-packages
           path: artifacts
-          
+
       - name: Remove git hooks (hack to make action-create-tag work)
         run: 'rm -rfv .git/hooks/*'
       - uses: rickstaa/action-create-tag@v1
