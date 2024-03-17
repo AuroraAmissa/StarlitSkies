@@ -20,23 +20,6 @@ Format 66
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
 
-InsetLayout Flex:IgnoreThis
-  LyXType               custom
-  Decoration            classic
-  LabelString           "Do not Render"
-  LatexType             command
-  LatexName             ignorethis
-  ResetsFont            true
-
-  HTMLTag               div
-  HTMLIsBlock           true
-  HTMLStyle
-    div.flex_ignorethis {
-      display: none;
-    }
-  EndHTMLStyle
-End
-
 InsetLayout Flex:Sidebar
   LyXType               custom
   Decoration            classic
@@ -50,37 +33,49 @@ InsetLayout Flex:Sidebar
   ResetsFont            true
 End
 
-InsetLayout Flex:ContentWarning
+InsetLayout Flex:SidebarContentWarning
   LyXType               custom
   Decoration            classic
-  LabelString           "Content Warning"
+  LabelString           "Sidebar (Content Warning)"
   LatexType             environment
   LatexName             cw-sidebarenv
   ResetsFont            true
 End
 
-InsetLayout Flex:TwoColumnBox
+InsetLayout Flex:TwoColumns
   LyXType               custom
   Decoration            classic
-  LabelString           "Two Columns"
+  LabelString           "Two Columns (Fill)"
   LatexType             environment
-  LatexName             twocolumnbox
+  LatexName             lumsharedtwocolumnbox
   ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnbox}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
+      {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
 End
 
-InsetLayout Flex:TwoColumnBoxFill
+InsetLayout Flex:TwoColumnsFill
   LyXType               custom
   Decoration            classic
-  LabelString           "Two Columns Fill"
+  LabelString           "Two Columns (Fill)"
   LatexType             environment
-  LatexName             twocolumnboxfill
+  LatexName             lumsharedtwocolumnboxfill
   ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnboxfill}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
+      {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
 End
 
 InsetLayout Flex:NewCommand
   LyXType               custom
   Decoration            classic
-  LabelString           "New Command"
+  LabelString           "New Rich Text Command"
   LatexType             command
   LatexName             newcommand
   ResetsFont            true
@@ -102,25 +97,25 @@ InsetLayout Flex:NewCommand
   EndHTMLStyle
 End
 
-InsetLayout Flex:LumPartQuote
+InsetLayout Flex:CofDPartQuote
   LyXType               custom
   Decoration            classic
-  LabelString           "Part Quote"
+  LabelString           "CofD Part Quote"
   LatexType             command
   LatexName             lumpartquote
   ResetsFont            true
 End
 
-InsetLayout Flex:LumChapQuote
+InsetLayout Flex:CofDChapterQuote
   LyXType               custom
   Decoration            classic
-  LabelString           "Chapter Quote"
+  LabelString           "CofD Chapter Quote"
   LatexType             command
   LatexName             lumchapquote
   ResetsFont            true
 End
 
-InsetLayout Flex:Foldable
+InsetLayout Flex:CollapsableRegion
   LyxType               custom
   LatexType             none
   Decoration            minimalistic
@@ -130,7 +125,7 @@ InsetLayout Flex:Foldable
   HTMLIsBlock           true
 End
 
-InsetLayout Flex:LumIncomplete
+InsetLayout Flex:IncompleteChapter
   LyXType               custom
   Decoration            classic
   LabelString           "Incomplete Chapter"
@@ -145,13 +140,13 @@ InsetLayout Flex:LumIncomplete
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
-    div.flex_lumincomplete {
+    div.flex_incompletechapter {
       display: none;
     }
   EndHTMLStyle
 End
 
-InsetLayout Flex:LumIncompleteSection
+InsetLayout Flex:IncompleteSection
   LyXType               custom
   Decoration            classic
   LabelString           "Incomplete Section"
@@ -166,7 +161,7 @@ InsetLayout Flex:LumIncompleteSection
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
-    div.flex_lumincompletesection {
+    div.flex_incompletesection {
       display: none;
     }
   EndHTMLStyle
@@ -350,7 +345,7 @@ filename "Contents_SS_C1_Introduction.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex LumIncomplete
+\begin_inset Flex IncompleteChapter
 status open
 
 \begin_layout Plain Layout

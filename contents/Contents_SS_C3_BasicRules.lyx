@@ -20,23 +20,6 @@ Format 66
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
 
-InsetLayout Flex:IgnoreThis
-  LyXType               custom
-  Decoration            classic
-  LabelString           "Do not Render"
-  LatexType             command
-  LatexName             ignorethis
-  ResetsFont            true
-
-  HTMLTag               div
-  HTMLIsBlock           true
-  HTMLStyle
-    div.flex_ignorethis {
-      display: none;
-    }
-  EndHTMLStyle
-End
-
 InsetLayout Flex:Sidebar
   LyXType               custom
   Decoration            classic
@@ -50,37 +33,49 @@ InsetLayout Flex:Sidebar
   ResetsFont            true
 End
 
-InsetLayout Flex:ContentWarning
+InsetLayout Flex:SidebarContentWarning
   LyXType               custom
   Decoration            classic
-  LabelString           "Content Warning"
+  LabelString           "Sidebar (Content Warning)"
   LatexType             environment
   LatexName             cw-sidebarenv
   ResetsFont            true
 End
 
-InsetLayout Flex:TwoColumnBox
+InsetLayout Flex:TwoColumns
   LyXType               custom
   Decoration            classic
-  LabelString           "Two Columns"
+  LabelString           "Two Columns (Fill)"
   LatexType             environment
-  LatexName             twocolumnbox
+  LatexName             lumsharedtwocolumnbox
   ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnbox}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
+      {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
 End
 
-InsetLayout Flex:TwoColumnBoxFill
+InsetLayout Flex:TwoColumnsFill
   LyXType               custom
   Decoration            classic
-  LabelString           "Two Columns Fill"
+  LabelString           "Two Columns (Fill)"
   LatexType             environment
-  LatexName             twocolumnboxfill
+  LatexName             lumsharedtwocolumnboxfill
   ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnboxfill}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
+      {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
 End
 
 InsetLayout Flex:NewCommand
   LyXType               custom
   Decoration            classic
-  LabelString           "New Command"
+  LabelString           "New Rich Text Command"
   LatexType             command
   LatexName             newcommand
   ResetsFont            true
@@ -102,25 +97,25 @@ InsetLayout Flex:NewCommand
   EndHTMLStyle
 End
 
-InsetLayout Flex:LumPartQuote
+InsetLayout Flex:CofDPartQuote
   LyXType               custom
   Decoration            classic
-  LabelString           "Part Quote"
+  LabelString           "CofD Part Quote"
   LatexType             command
   LatexName             lumpartquote
   ResetsFont            true
 End
 
-InsetLayout Flex:LumChapQuote
+InsetLayout Flex:CofDChapterQuote
   LyXType               custom
   Decoration            classic
-  LabelString           "Chapter Quote"
+  LabelString           "CofD Chapter Quote"
   LatexType             command
   LatexName             lumchapquote
   ResetsFont            true
 End
 
-InsetLayout Flex:Foldable
+InsetLayout Flex:CollapsableRegion
   LyxType               custom
   LatexType             none
   Decoration            minimalistic
@@ -130,7 +125,7 @@ InsetLayout Flex:Foldable
   HTMLIsBlock           true
 End
 
-InsetLayout Flex:LumIncomplete
+InsetLayout Flex:IncompleteChapter
   LyXType               custom
   Decoration            classic
   LabelString           "Incomplete Chapter"
@@ -145,13 +140,13 @@ InsetLayout Flex:LumIncomplete
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
-    div.flex_lumincomplete {
+    div.flex_incompletechapter {
       display: none;
     }
   EndHTMLStyle
 End
 
-InsetLayout Flex:LumIncompleteSection
+InsetLayout Flex:IncompleteSection
   LyXType               custom
   Decoration            classic
   LabelString           "Incomplete Section"
@@ -166,7 +161,7 @@ InsetLayout Flex:LumIncompleteSection
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
-    div.flex_lumincompletesection {
+    div.flex_incompletesection {
       display: none;
     }
   EndHTMLStyle
@@ -280,6 +275,13 @@ status open
 setsection{starlit}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+firmlist
+\end_layout
+
 \end_inset
 
 
@@ -290,11 +292,11 @@ Basic Rules
 \end_layout
 
 \begin_layout Standard
-This chapters explains the core rules of 
+This chapter explains the most essential rules of 
 \series bold
 Starlit Skies
 \series default
-, and the basics of how to play the game.
+.
 \end_layout
 
 \begin_layout Section
@@ -302,12 +304,25 @@ Roleplaying
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex IncompleteSection
+status open
 
-\series bold
-Starlit Skies
-\series default
- is a roleplaying game, in which you take the roles of the protagonists
- of a story 
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+how to roleplay & the basics of characters
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -324,19 +339,20 @@ Concept
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
+\begin_inset Flex IncompleteSection
 status open
 
 \begin_layout Plain Layout
-TODO: insert generic 
-\begin_inset Quotes xld
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+creating character concepts
+\end_layout
+
 \end_inset
 
-what is roleplaying
-\begin_inset Quotes xrd
-\end_inset
 
- chapter, part 2
 \end_layout
 
 \end_inset
@@ -345,50 +361,304 @@ what is roleplaying
 \end_layout
 
 \begin_layout Subsection
-Origin Name
+Approaches
 \end_layout
 
 \begin_layout Standard
-Before starting on your character's statistics, you should decide their
- Origin Key, the fundamental basis of their magic.
- It defines how they use their magic, and what kinds of things they can
- do with it.
- To create an Origin Key, define what kinds of magic your character does,
- and the common theme/emotions that tie them together, then give them a
- poetic name.
+After choosing your character concept, the next step is to start fleshing
+ out her strengths and weaknesses.
+ Characters have three approaches called Gleam, Heart and Dream.
+ Each of them has a point value from 0 to 4, that shows how good your character
+ is at using that approach.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Heart
+\series default
+ shows how well your character solves problems when driven by her emotions
+ and willpower.
+ When she uses magic, she turns her feelings into raging energy.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Shine
+\series default
+ shows how well your character solves problems when through careful analysis
+ and understanding.
+ When she uses magic, she calls upon esoteric secrets of the world.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dream
+\series default
+ shows how well your character solves problems when through her creativity
+ and imagination.
+ When she uses magic, she manifests her dreams physically into reality.
 \end_layout
 
 \begin_layout Standard
-For example, you could have an Origin Key of "What the Stars Dream", drawing
- on the romanticism of the starry night sky, and the dreams of those that
- gaze to them.
- Such magic would manifest as rays of star light, rifts into space to suck
- enemies in, and on a more esoteric note, to "read the stars" to divine
- information that would otherwise not be known to its wielder.
+At the start of the game, you have 5 points that you can distribute between
+ the three Approaches.
+ You can only start with up to 3 points in any given Approach.
+\end_layout
+
+\begin_layout Subsection
+Skills
+\end_layout
+
+\begin_layout Standard
+Next, you choose your character's skills.
+ Skills are point values that work a lot like approaches, but showing how
+ well they do at more specific tasks.
+ When your character does something difficult, you use a skill and an approach
+ together to find out whether she succeeds in what she's trying.
+ There are eight skills, that represent actions that make sense no matter
+ what kind of world you find yourself in.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Athletics
+\series default
+ shows your characters physical prowess and ability to apply force skillfully,
+ such as when climbing cliffs or forcing a door open.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Finesse
+\series default
+ shows how well your characters can move quickly or accurately, such as
+ when navigating a tight corridor or picking a lock.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Awareness
+\series default
+ shows how well your character remains aware of her surroundings in complicated
+ situations or when distracted.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Analysis
+\series default
+ shows how well your character can determine the implications of known facts
+ and connect them together.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Intuition
+\series default
+ shows how well your character picks up on unseen patterns and work with
+ incomplete information.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Expression
+\series default
+ shows how well your character expresses their own feelings, such as when
+ pleading with another to work with her or writing a poem.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Connection
+\series default
+ shows how well your character connects to others, such as to understand
+ how they really feel or comfort someone through sympathy.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Deception
+\series default
+ shows how well your character deceives others, such as when sneaking through
+ a building or concealing her emotions.
+\end_layout
+
+\begin_layout Standard
+At the start of the game, you have 10 points that you can distribute between
+ your skills.
+ You can only start with up to 3 points in any skill, and can only put a
+ third point in up to 2 skills.
+\end_layout
+
+\begin_layout Subsection
+Authority
+\end_layout
+
+\begin_layout Standard
+The worlds in the Sea of Stars all have their own rules and magics, shaping
+ their Light into countless forms.
+ Authorities reflect the special powers your characters can use, whether
+ through their innate power as Starlit or under the authority of a world
+ they find themselves in.
  
 \end_layout
 
 \begin_layout Standard
-Alternatively, an Origin Key of "The Void's Embrace" would draw on the spaces
- between worlds, the end of all things, that which separates worlds and
- allows them to exist independently, yet channeled as a protective force.
- It would manifest as the blades and beams of nothingness, and shields of
- nothingness, the temporary suspension of physical laws like gravity for
- short durations.
- 
+With their Authorities, characters can do things that go beyond anything
+ ordinary people could achieve.
+ They work like special skills, with a list of extraordinary things you
+ can do with them.
+ You can put points into them the same way as normal skills.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
+Start by picking your character's Starlit Authority, that reflects her innate
+ powers as a Starlit.
+ They should follow a theme reflecting who she is.
+ For example, an astronomer might have powers to read the stars and define
+ a person's fate, and an artist might be able to paint the things she imagines
+ into life.
+ Whatever you choose, name your Authority and use the template provided
+ on your character sheet to define better what it does.
+\end_layout
+
+\begin_layout Standard
+New Earth gives those living in it its own Authorities, built around the
+ the miracles and conveniences that modern technology provide.
+ On Earth and worlds with similar technology, you can use four additional
+ Skills.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Engineering
+\series default
+ shows your character's proficiency at working with the physics of the world
+ to construct machines and contraptions.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Computers
+\series default
+ shows your how good your character is at working with computers, whether
+ using them or creating new programs.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Medicine
+\series default
+ shows how well your character understands anatomy and how to heal people
+ using mundane means.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nature
+\series default
+ shows how well your character understands nature, and how to cultivate
+ or care for plants, animals and ecosystems.
+\end_layout
+
+\begin_layout Standard
+You may take points in Earth's authorities in place of any ordinary skill,
+ with the same point limits.
+ You start with exactly 2 points in your character's Starlit Authority,
+ and can't put more points into it.
+\end_layout
+
+\begin_layout Subsection
+Paths and Abilities
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex IncompleteSection
 status open
 
 \begin_layout Plain Layout
-TODO: write section
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+character abilities
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sessions and Scenes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex IncompleteSection
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+basics of roleplay structure
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Challenges
+\end_layout
+
+\begin_layout Standard
+When you narrate your character doing something difficult, the Host can
+ call for a Challenge, 
+\end_layout
+
+\begin_layout Subsection
+Rolling Challenges
+\end_layout
+
+\begin_layout Subsection
+Obstacle
+\end_layout
+
+\begin_layout Standard
+Obstacle represents innate difficulty in what you're trying to do or problems
+ caused by environmental factors.
+\end_layout
+
+\begin_layout Subsection
+Impossible Challenges
 \end_layout
 
 \end_body
