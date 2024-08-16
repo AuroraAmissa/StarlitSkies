@@ -1,0 +1,10 @@
+[config]
+title = "Starlit Skies"
+resource_root = "StarlitSkiesFiles"
+modified_mode = "none"
+
+[entry]
+name = "Starlit Skies (Web)"
+path = "chapters/title.html"
+
+[alt]
