@@ -3,14 +3,21 @@
   $bg_alpha: 0.85,
   $theme_chroma_mult: 0.5,
   $theme_chroma_mult_highlight: 1.0,
-    $font_title: "Rounded Mplus 1c Bold",
+  $font_title: "Quicksand",
+  $font_text: "Signika Negative",
   $marker_li: "☆",
   $marker_li_2: "◇",
-  $marker_title: "☆",
+  $marker_title: "✦",
   $title_selector: ".h0",
+  $font_weight_main: 350,
   $background: #dcf8ef url('starlit-skies-web-bg.jpeg') repeat fixed 0 -60px,
 );
 
 .h-card {
   top: 0.135em;
+}
+
+.h0 {
+  line-height: 150%;
+  margin: 0;
 }
