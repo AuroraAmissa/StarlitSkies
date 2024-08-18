@@ -10,7 +10,7 @@ This document contains Starlit Skies [(unknown)]{#ver-tag}. The source files for
 
 ## Inspirations
 
-Starlit Skies is continuation of the line of system design started by the 3rd draft of **[Magical Burst]** by **Yuruki Zero Games**. The following game systems serve as major inspirations:
+Starlit Skies is continuation of the line of system design started by the 3rd draft of **[Magical Burst]**. The following game systems serve as major inspirations:
 
 * **[Magical Burst]** (3rd draft) by **Yuruki Zero Games**: The original mechanical inspiration for Starlit Skies, before its later drafts moved to an approach more similar to traditional PBTA.
 * **[Project Rebirth]** by **Fact**: The previous author of a continuation of Magical Burst 3rd draft, who laid a lot of the groundwork experimentation with the system design that made Starlit Skies possible.
