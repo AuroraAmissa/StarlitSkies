@@ -4,6 +4,12 @@ This document contains Starlit Skies [(unknown)]{#ver-tag}. The source files for
 
 [Github]: https://github.com/AuroraAmissa/StarlitSkies
 
+::::: {#subpages-section}
+## Subpages {.unlisted .unnumbered}
+
+* [Legal & Credits]()
+:::::
+
 ## What is this?
 
 **Starlit Skies** is a tabletop roleplaying game inspired by the magical girl genre of anime. In it, 3-6 players work together to play out a story, of the struggles and challenges of young heroes doing their best to slowly heal the wounds of a shattered world.
