@@ -5,7 +5,19 @@ This chapter explains the most essential rules of **Starlit Skies** and how to p
 
 ## Roleplaying
 
-TODO: How to roleplay & the basics of characters
+**Starlit Skies** is a game about experiencing a story together.
+
+### Scenes
+
+### Chapters and Campaigns
+
+::::: {.sidebar}
+#### Sidebar: Styles of Play
+
+
+:::::
+
+###
 
 ## Character Statistics
 
