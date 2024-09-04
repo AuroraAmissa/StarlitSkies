@@ -11,7 +11,7 @@ The **Host** participates in the story from the perspective of the world and the
 
 The **players** participate in the story from the perspective of a **player character**, describing what their character does and how she reacts. A player's role is to play the part of the protagonists of the story, interacting with the Host's world, and creating the best story they can together.
 
-### Characters {.u}
+### Characters {.notoc}
 
 The stories of **Starlit Skies** focus greatly on the characters involved alongside the worlds of each Star. Beyond the player characters, the Host has the responsibility to play the **non-player characters** that fill out the world.
 
@@ -38,7 +38,7 @@ In this system, the preferred way to handle these characters is for them to shar
 Usually, the same participant should control all the characters involved. If they would rather not, or do not feel comfortable doing so, another player or the Host can describe the actions of these "side characters" instead. 
 :::::
 
-### Scenes {.u}
+### Scenes {.notoc}
 
 Play in **Starlit Skies** is divided into **Scenes**, like a play. A scene is like a place and a length of time at once.
 
@@ -62,7 +62,7 @@ There are a few types of scenes that interact differently with the rules. They a
 
 A scene can transition from one type of scene to another without ending. For example, if a fight unexpectedly breaks out during an Open Scene, it immediately becomes a Conflict Scene and uses the rules for one.
 
-### Time in Roleplays {.u}
+### Time in Roleplays {.notoc}
 
 Longer durations of time are broken down into **Sessions**, **Chapters**, and **Campaigns**.
 
@@ -110,7 +110,7 @@ For groups that do not come together at a scheduled time (for example, Play by P
 
 All characters in **Starlit Skies** have several **statistics** that connects who they are in roleplay to the tabletop game part of the system. A character's statistics are kept track of on a **character sheet** that gives you all the information you need to use the character with the game's rules.
 
-### Approaches {.u}
+### Approaches {.notoc}
 
 Characters all have three **approaches** that represent how good they are at approaching problems in a certain way, and how proficient they are at the magic that originates from those mindsets. The approaches are:
 
@@ -120,7 +120,7 @@ Characters all have three **approaches** that represent how good they are at app
 
 Approaches (alongside skills) are added to challenges when you need to roll dice.
 
-### Traits {.u}
+### Traits {.notoc}
 
 The three **traits** reflect who a character is, each corresponding to a specific approach. The traits are:
 
@@ -130,7 +130,7 @@ The three **traits** reflect who a character is, each corresponding to a specifi
 
 Traits can be used to help overcome difficult challenges or to fuel Dissonance.
 
-### Skills {.u}
+### Skills {.notoc}
 
 In addition to the approaches, eight **skills** help define what characters are good at in mundane life. The skills are:
 
@@ -145,7 +145,7 @@ In addition to the approaches, eight **skills** help define what characters are 
 
 Skills (alongside approaches) are added to challenges when you need to roll dice, and are especially important when dealing with hard tasks.
 
-### Domains {.u}
+### Domains {.notoc}
 
 The worlds of the Sea of Stars all have their own rules of magic, shaping raw Light into countless different forms. **Domains** are the special powers characters can draw from the Sea of Stars.
 
@@ -161,7 +161,7 @@ Authorities work like normal skills, but they aren't chosen from a fixed list. S
 * **Nature** shows how well your character understands nature, and how to cultivate or care for plants, animals and ecosystems.
 * **Operate (Earth)** shows how well your character can operate specialized machinery common to Earth, especially cars.
 
-### Bonds {.u}
+### Bonds {.notoc}
 
 **Bonds** represent the connections characters have made to other people and the Stars. There are three kinds of bonds:
 
@@ -171,17 +171,17 @@ Authorities work like normal skills, but they aren't chosen from a fixed list. S
 
 Bonds have **traits** just as characters do, helping detail how exactly a character views the relationship.
 
-### Resolve and Health {.u}
+### Resolve and Health {.notoc}
 
 Resolve and Health are two seperate measures of how much harm a character can take before being defeated. Damage to **Resolve** measures magical barriers and advanced armor, while damage to **Health** measures physical harm.
 
 A character is **defeated** when their Resolve runs out, and **dies** when their Health runs out.
 
-### Light {.u}
+### Light {.notoc}
 
 **Light** is a measure of how much energy a character has available to fuel their magic.
 
-### Paths and Abilities {.u}
+### Paths and Abilities {.notoc}
 
 Paths and Abilities represent a character's specialized training in using a particular form of magic or technology.
 
@@ -223,19 +223,19 @@ In the game rules, challenges are written like this: [Heart + Empathy + ▲▲�
 
 The filled triangles ([▲]{.symc}) mean the result of rolling a four-sided dice. The empty triangles ([△]{.symc}) mean an open slot for a boost dice. The approach, skill and result of any dice rolled are added together to get the challenge's **result**.
 
-### Standard Challenges {.u}
+### Standard Challenges {.notoc}
 
 Unless otherwise specified by an ability, mundane challenges are rolled using [Approach + Skill + ▲▲]{.c}.
 
 Similarly, magical challenges are rolled using [Approach + Skill + ▲▲△△]{.c} unless otherwise specified.
 
-### Complexity {.u}
+### Complexity {.notoc}
 
 Challenges can have a **complexity** representing actions that inherently require a better understanding of a skill.
 
 Subtract the complexity from the challenge's result. For each point the complexity is greater than the skill you used, subtract another 1 from the result.
 
-### Beginning a Challenge {.u}
+### Beginning a Challenge {.notoc}
 
 There are several ways that a challenge can start:
 
@@ -260,7 +260,7 @@ An **Opposed Challenge** occurs between two characters. The character who has a 
 
 If two characters tie, the character with the higher total approach and skill wins (or a randomly chosen character if they are still equal).
 
-### Boost Dice and Boost Actions {.u}
+### Boost Dice and Boost Actions {.notoc}
 
 During a challenge, characters can use **Boost Actions** to modify their challenge after they see the result (and tiebreakers are rolled).
 
@@ -276,7 +276,7 @@ Each approach is a single number that is added to the result of Challenges. If a
 
 Normally, a character can use the approach they are most comfortable with on a Challenge (and thus their highest value). However, you should expect that your character be put in situations where they cannot do so frequently.
 
-### Dream {.u}
+### Dream {.notoc}
 
 **Dream** is the approach used when someone approaches a problem through creativity or intuition.
 
@@ -286,7 +286,7 @@ Beyond mundane uses, Dream creates the magic of **Fantasia** — the magic that 
 
 When used with a Domain over Ice, it creates wings or a shield formed out of interwoven icicles. When used with a Domain over Light, it forms barriers of light or creates illusions.
 
-### Heart {.u}
+### Heart {.notoc}
 
 **Heart** is the approach used when someone approaches a problem through willpower or presence.
 
@@ -296,7 +296,7 @@ Beyond mundane uses, Heart creates the magic of **Fury** — the magic that fuel
 
 When used with a Domain over Ice, it chills things to freeze them instantly, or fires barrages of icicles that quickly melt away. When used with a Domain over Light, it projects searing light or blinding flashes.
 
-### Focus {.u}
+### Focus {.notoc}
 
 **Focus** is the approach used when someone approaches a problem through wit or knowledge.
 

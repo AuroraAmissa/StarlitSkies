@@ -3,7 +3,7 @@
 
 ## Credits
 
-**Lymia Kanokawa:** Main developer, writer, and layout
+**Rimi Kanokawa:** Main developer, writer, and layout
 
 ## Special Thanks
 
