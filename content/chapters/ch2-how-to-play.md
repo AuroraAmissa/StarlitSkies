@@ -203,7 +203,7 @@ The following rules are assumed by default, and can only be changed by more spec
 
 If a single event causes multiple things to happen, apply these rules in order:
 
-* **Effect Controller:** Each character's player decides what order their abilities trigger in.  
+* **Effect Controller:** Each character's player decides what order their abilities trigger in.
 * **Active Player First:** Effects belonging to character whose turn it trigger first.
 * **Initiative Order:** Afterward, each other character's effects trigger in initiative order (fastest to slowest).
 * **Arbitrary Order:** If there is no initiative or active player, the Host chooses an arbitrary order between characters.

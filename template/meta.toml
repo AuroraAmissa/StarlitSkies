@@ -9,5 +9,12 @@ name = "Starlit Skies (Web)"
 path = "chapters/title.html"
 
 [pdf]
+top-level-division = "chapter"
+fonts = [
+    "Signika Negative,Main,Weight=350,BoldWeight=550",
+    "Quicksand,Title",
+    "Gothic A1,Fallback",
+]
+no_c_span_space = true
 
 [alt]
