@@ -4,6 +4,7 @@
 
 \definesection{forward}{\fontQuicksand\bfseries}{F5EBFF}{E9E0FF}{B9B0F5}{7F6DF2}%
 \definesection{starlit}{\fontQuicksand\bfseries}{F5EBFF}{E9E0FF}{B9B0F5}{7F6DF2}%
+\newcommand\fourstar{{\fontGothicA\bfseries ✧}}
 
 %
 % Starlit Skies basic layout
@@ -12,7 +13,6 @@
 \geometry{verbose,letterpaper,tmargin=1.1in,bmargin=1.1in,lmargin=0.85in,rmargin=0.85in,footskip=0.9in}
 \newcommand\overridegeometry{--}
 
-\newcommand\fourstar{{\fontGothicA\bfseries ✧}}
 \renewcommand{\labelitemi}{\fourstar}
 
 \renewcommand\vsecsize{\fontsize{23.5}{33}}
@@ -28,5 +28,5 @@
 %
 % Starlit Skies chapter headings
 %
-\renewcommand*{\printchaptertitle}[1]{\chaptitlefont{\fourstar #1 \fourstar}}
+\renewcommand*{\printchaptertitle}[1]{\chaptitlefont{\fourstar{} #1 \fourstar{}}}
 \renewcommand*{\printtoctitle}[1]{}

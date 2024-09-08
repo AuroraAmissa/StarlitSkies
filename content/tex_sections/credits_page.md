@@ -10,7 +10,7 @@ Suzune, and the members of the [TTRPG Game Development Discord server](https://d
 
 #### Notice {.u}
 
-TODO
+\repositoryInfoText{AuroraAmissa/StarlitSkies}
 
 ```{=latex}
 \begin{table}[b!]
