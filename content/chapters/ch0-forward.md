@@ -21,6 +21,8 @@ That was the roleplaying culture I grew up with, and the one that still influenc
 
 Because, Starlit Skies is the system I wish I had when I was a kid myself.
 
+\pagebreak
+
 ## Inspirations
 
 Starlit Skies is continuation of the line of system design started by the 3rd draft of **[Magical Burst]**. The following game systems serve as major inspirations:
