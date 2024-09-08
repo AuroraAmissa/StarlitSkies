@@ -11,10 +11,13 @@ path = "chapters/title.html"
 [pdf]
 top-level-division = "chapter"
 fonts = [
-    "Signika Negative,Main,Weight=350,BoldWeight=550",
+    "Signika Negative,Main,Weight=400,BoldWeight=650",
     "Quicksand,Title",
     "Gothic A1,Fallback",
 ]
 no_c_span_space = true
+
+[pdf.books]
+book_main = "Starlit Skies"
 
 [alt]

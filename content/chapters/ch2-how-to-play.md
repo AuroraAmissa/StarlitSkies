@@ -1,4 +1,4 @@
-# Chapter 2: How to Play
+# How to Play
 [[Starlit Skies]() > $]{.breadcrumbs}
 
 This chapter explains the most essential rules of **Starlit Skies** and how to play it.

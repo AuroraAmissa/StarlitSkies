@@ -13,5 +13,5 @@ This document contains Starlit Skies [(unknown)]{#ver-tag}. The source files for
 * [Starlit Skies]()
   * [Legal & Credits]()
 * [Forward]()
-* [Chapter 1: Introduction]()
-* [Chapter 2: How to Play]()
+* Chapter 1: [Introduction]()
+* Chapter 2: [How to Play]()

@@ -1,4 +1,4 @@
-# Chapter 1: Introduction
+# Introduction
 [[Starlit Skies]() > $]{.breadcrumbs}
 
 Welcome to **Starlit Skies**, a tabletop roleplaying game inspired by the magical girl genre of anime.
